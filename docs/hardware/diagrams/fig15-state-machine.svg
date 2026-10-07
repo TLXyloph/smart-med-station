@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1600 980" width="1600" height="980" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<defs><marker id="af374151" viewBox="0 0 10 10" refX="9.5" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker></defs>
+<g id="layer-shapes"><circle cx="250" cy="126" r="9" fill="#111827"/>
+<rect x="180.0" y="168.0" width="140.0" height="58.0" fill="#EEF2FF" stroke="#4338CA" stroke-width="2" rx="12"/>
+<rect x="150.0" y="398.0" width="200.0" height="86.0" fill="#ECFDF5" stroke="#047857" stroke-width="2" rx="12"/>
+<rect x="600.0" y="200.0" width="180.0" height="560.0" fill="#EEF2FF" stroke="#4338CA" stroke-width="2" rx="12"/>
+<rect x="1000.0" y="234.0" width="180.0" height="72.0" fill="#EEF2FF" stroke="#4338CA" stroke-width="2" rx="12"/>
+<rect x="1000.0" y="414.0" width="180.0" height="72.0" fill="#EEF2FF" stroke="#4338CA" stroke-width="2" rx="12"/>
+<rect x="1000.0" y="590.0" width="180.0" height="230.0" fill="#EEF2FF" stroke="#4338CA" stroke-width="2" rx="12"/>
+<rect x="1014.0" y="644.0" width="152.0" height="22.0" fill="#FFFFFF" stroke="#6366F1" stroke-width="1.2" rx="11"/>
+<polygon points="1086.0,671.5 1094.0,671.5 1090.0,676.5" fill="#6366F1"/>
+<rect x="1014.0" y="678.0" width="152.0" height="22.0" fill="#FFFFFF" stroke="#6366F1" stroke-width="1.2" rx="11"/>
+<polygon points="1086.0,705.5 1094.0,705.5 1090.0,710.5" fill="#6366F1"/>
+<rect x="1014.0" y="712.0" width="152.0" height="22.0" fill="#FFFFFF" stroke="#6366F1" stroke-width="1.2" rx="11"/>
+<polygon points="1086.0,739.5 1094.0,739.5 1090.0,744.5" fill="#6366F1"/>
+<rect x="1014.0" y="746.0" width="152.0" height="22.0" fill="#FFFFFF" stroke="#6366F1" stroke-width="1.2" rx="11"/>
+<polygon points="1086.0,773.5 1094.0,773.5 1090.0,778.5" fill="#6366F1"/>
+<rect x="1014.0" y="780.0" width="152.0" height="22.0" fill="#FFFFFF" stroke="#6366F1" stroke-width="1.2" rx="11"/>
+<rect x="380.0" y="640.0" width="160.0" height="80.0" fill="#FEF2F2" stroke="#B91C1C" stroke-width="2" rx="12"/>
+<rect x="660.0" y="860.0" width="300.0" height="60.0" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.4" rx="10" stroke-dasharray="6 4"/>
+<circle cx="460" cy="890" r="4" fill="#374151"/>
+<rect x="1214.0" y="104.0" width="346.0" height="220.0" fill="#F9FAFB" stroke="#D1D5DB" stroke-width="1.2" rx="8"/>
+<circle cx="1235" cy="151.5" r="2.6" fill="#4B5563"/>
+<circle cx="1235" cy="231.5" r="2.6" fill="#4B5563"/>
+<circle cx="1235" cy="257.5" r="2.6" fill="#4B5563"/>
+<circle cx="1235" cy="301.5" r="2.6" fill="#4B5563"/>
+<rect x="1214.0" y="342.0" width="346.0" height="254.0" fill="#FFFBEB" stroke="#B45309" stroke-width="1.2" rx="8"/>
+<circle cx="1235" cy="389.5" r="2.6" fill="#4B5563"/>
+<circle cx="1235" cy="433.5" r="2.6" fill="#4B5563"/>
+<circle cx="1235" cy="477.5" r="2.6" fill="#4B5563"/>
+<circle cx="1235" cy="503.5" r="2.6" fill="#4B5563"/>
+<circle cx="1235" cy="547.5" r="2.6" fill="#4B5563"/>
+<circle cx="1235" cy="573.5" r="2.6" fill="#4B5563"/>
+<rect x="1214.0" y="614.0" width="346.0" height="150.0" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.2" rx="8"/>
+<circle cx="1244" cy="664" r="7" fill="#111827"/>
+<rect x="1232.0" y="716.0" width="26.0" height="18.0" fill="#ECFDF5" stroke="#047857" stroke-width="1.6" rx="5"/>
+<rect x="1340.0" y="716.0" width="26.0" height="18.0" fill="#EEF2FF" stroke="#4338CA" stroke-width="1.6" rx="5"/>
+<rect x="1448.0" y="716.0" width="26.0" height="18.0" fill="#FEF2F2" stroke="#B91C1C" stroke-width="1.6" rx="5"/></g>
+<g id="layer-lines"><polyline points="250.0,135.0 250.0,168.0" fill="none" stroke="#374151" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#af374151)"/>
+<polyline points="250.0,226.0 250.0,398.0" fill="none" stroke="#374151" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#af374151)"/>
+<polyline points="350.0,420.0 600.0,420.0" fill="none" stroke="#374151" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#af374151)"/>
+<polyline points="650.0,200.0 650.0,166.0 730.0,166.0 730.0,200.0" fill="none" stroke="#374151" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#af374151)"/>
+<polyline points="780.0,256.0 1000.0,256.0" fill="none" stroke="#374151" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#af374151)"/>
+<polyline points="1000.0,284.0 780.0,284.0" fill="none" stroke="#374151" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#af374151)"/>
+<polyline points="780.0,436.0 1000.0,436.0" fill="none" stroke="#374151" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#af374151)"/>
+<polyline points="1000.0,464.0 780.0,464.0" fill="none" stroke="#374151" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#af374151)"/>
+<line x1="1090.0" y1="666.0" x2="1090.0" y2="672.0" stroke="#6366F1" stroke-width="1.2"/>
+<line x1="1090.0" y1="700.0" x2="1090.0" y2="706.0" stroke="#6366F1" stroke-width="1.2"/>
+<line x1="1090.0" y1="734.0" x2="1090.0" y2="740.0" stroke="#6366F1" stroke-width="1.2"/>
+<line x1="1090.0" y1="768.0" x2="1090.0" y2="774.0" stroke="#6366F1" stroke-width="1.2"/>
+<polyline points="780.0,650.0 1000.0,650.0" fill="none" stroke="#374151" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#af374151)"/>
+<polyline points="1000.0,678.0 780.0,678.0" fill="none" stroke="#374151" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#af374151)"/>
+<polyline points="420.0,640.0 420.0,466.0 350.0,466.0" fill="none" stroke="#374151" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#af374151)"/>
+<polyline points="660.0,890.0 200.0,890.0 200.0,484.0" fill="none" stroke="#374151" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#af374151)"/>
+<polyline points="460.0,890.0 460.0,720.0" fill="none" stroke="#374151" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#af374151)"/>
+<line x1="1232.0" y1="694.0" x2="1258.0" y2="694.0" stroke="#374151" stroke-width="1.6" marker-end="url(#af374151)"/></g>
+<g id="layer-knock"><rect x="259.0" y="144.1" width="62.4" height="17.0" fill="#FFFFFF"/>
+<rect x="261.0" y="284.1" width="57.1" height="17.0" fill="#FFFFFF"/>
+<rect x="261.0" y="301.1" width="95.4" height="17.0" fill="#FFFFFF"/>
+<rect x="261.0" y="318.1" width="111.7" height="17.0" fill="#FFFFFF"/>
+<rect x="413.6" y="381.1" width="122.8" height="17.0" fill="#FFFFFF"/>
+<rect x="411.3" y="398.1" width="127.5" height="17.0" fill="#FFFFFF"/>
+<rect x="506.3" y="112.1" width="367.4" height="17.0" fill="#FFFFFF"/>
+<rect x="577.0" y="129.1" width="225.9" height="17.0" fill="#FFFFFF"/>
+<rect x="810.7" y="219.1" width="158.6" height="17.0" fill="#FFFFFF"/>
+<rect x="857.7" y="236.1" width="64.6" height="17.0" fill="#FFFFFF"/>
+<rect x="856.9" y="291.1" width="66.1" height="17.0" fill="#FFFFFF"/>
+<rect x="811.8" y="308.1" width="156.3" height="17.0" fill="#FFFFFF"/>
+<rect x="821.1" y="325.1" width="137.7" height="17.0" fill="#FFFFFF"/>
+<rect x="842.2" y="399.1" width="95.6" height="17.0" fill="#FFFFFF"/>
+<rect x="843.3" y="416.1" width="93.4" height="17.0" fill="#FFFFFF"/>
+<rect x="812.2" y="471.1" width="155.6" height="17.0" fill="#FFFFFF"/>
+<rect x="843.3" y="488.1" width="93.4" height="17.0" fill="#FFFFFF"/>
+<rect x="817.8" y="505.1" width="144.4" height="17.0" fill="#FFFFFF"/>
+<rect x="794.4" y="613.1" width="191.1" height="17.0" fill="#FFFFFF"/>
+<rect x="838.5" y="630.1" width="102.9" height="17.0" fill="#FFFFFF"/>
+<rect x="837.4" y="685.1" width="105.3" height="17.0" fill="#FFFFFF"/>
+<rect x="822.2" y="702.1" width="135.6" height="17.0" fill="#FFFFFF"/>
+<rect x="431.0" y="548.1" width="106.8" height="17.0" fill="#FFFFFF"/>
+<rect x="431.0" y="565.1" width="60.1" height="17.0" fill="#FFFFFF"/>
+<rect x="211.0" y="580.1" width="116.5" height="17.0" fill="#FFFFFF"/>
+<rect x="211.0" y="597.1" width="65.1" height="17.0" fill="#FFFFFF"/>
+<rect x="471.0" y="788.1" width="186.1" height="17.0" fill="#FFFFFF"/>
+<rect x="471.0" y="805.1" width="129.6" height="17.0" fill="#FFFFFF"/></g>
+<g id="layer-text"><text xml:space="preserve" x="250.0" y="194.0" font-size="15" fill="#111827" text-anchor="middle" font-weight="bold">BOOT</text>
+<text xml:space="preserve" x="250.0" y="212.0" font-size="12" fill="#4B5563" text-anchor="middle">init, disc → REST</text>
+<text xml:space="preserve" x="262.0" y="156.0" font-size="13" fill="#1F2937">power-on</text>
+<text xml:space="preserve" x="250.0" y="430.0" font-size="15" fill="#111827" text-anchor="middle" font-weight="bold">SAFE</text>
+<text xml:space="preserve" x="250.0" y="448.0" font-size="12" fill="#4B5563" text-anchor="middle">all servo PWM off, no motion</text>
+<text xml:space="preserve" x="250.0" y="464.0" font-size="12" fill="#4B5563" text-anchor="middle">disc at REST</text>
+<text xml:space="preserve" x="264.0" y="296.0" font-size="13" fill="#1F2937">init done</text>
+<text xml:space="preserve" x="264.0" y="313.0" font-size="13" fill="#1F2937">/ emit <tspan font-family="Menlo, Consolas, monospace">! BOOT</tspan>,</text>
+<text xml:space="preserve" x="264.0" y="330.0" font-size="13" fill="#1F2937">all servo PWM off</text>
+<text xml:space="preserve" x="690.0" y="462.0" font-size="15" fill="#111827" text-anchor="middle" font-weight="bold">READY</text>
+<text xml:space="preserve" x="690.0" y="480.0" font-size="12" fill="#4B5563" text-anchor="middle">idle, servo PWM off</text>
+<text xml:space="preserve" x="690.0" y="496.0" font-size="12" fill="#4B5563" text-anchor="middle">accepts commands</text>
+<text xml:space="preserve" x="475.0" y="393.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-family="Menlo, Consolas, monospace">PING</tspan> (after <tspan font-family="Menlo, Consolas, monospace">CFG …</tspan>)</text>
+<text xml:space="preserve" x="475.0" y="410.0" font-size="13" fill="#1F2937" text-anchor="middle">/ <tspan font-family="Menlo, Consolas, monospace">OK state=READY</tspan></text>
+<text xml:space="preserve" x="690.0" y="124.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-family="Menlo, Consolas, monospace">GOTO k</tspan> or <tspan font-family="Menlo, Consolas, monospace">DISPENSE k</tspan> [hatch OPEN] / <tspan font-family="Menlo, Consolas, monospace">ERR HATCH_OPEN</tspan></text>
+<text xml:space="preserve" x="690.0" y="141.0" font-size="13" fill="#1F2937" text-anchor="middle">motion command [busy] / <tspan font-family="Menlo, Consolas, monospace">ERR BUSY</tspan></text>
+<text xml:space="preserve" x="1090.0" y="267.0" font-size="15" fill="#111827" text-anchor="middle" font-weight="bold">MOVING</text>
+<text xml:space="preserve" x="1090.0" y="285.0" font-size="12" fill="#4B5563" text-anchor="middle">turret rotating (≤ 2 s)</text>
+<text xml:space="preserve" x="890.0" y="231.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-family="Menlo, Consolas, monospace">GOTO k</tspan> [hatch CLOSED]</text>
+<text xml:space="preserve" x="890.0" y="248.0" font-size="13" fill="#1F2937" text-anchor="middle">/ ramp S1</text>
+<text xml:space="preserve" x="890.0" y="303.0" font-size="13" fill="#1F2937" text-anchor="middle">S1 settled</text>
+<text xml:space="preserve" x="890.0" y="320.0" font-size="13" fill="#1F2937" text-anchor="middle">(approached from below)</text>
+<text xml:space="preserve" x="890.0" y="337.0" font-size="13" fill="#1F2937" text-anchor="middle">/ <tspan font-family="Menlo, Consolas, monospace">OK col=k</tspan>, PWM off</text>
+<text xml:space="preserve" x="1090.0" y="447.0" font-size="15" fill="#111827" text-anchor="middle" font-weight="bold">UNLOCK_WINDOW</text>
+<text xml:space="preserve" x="1090.0" y="465.0" font-size="12" fill="#4B5563" text-anchor="middle">cam OPEN, default 5 s</text>
+<text xml:space="preserve" x="890.0" y="411.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-family="Menlo, Consolas, monospace">UNLOCK [ms]</tspan></text>
+<text xml:space="preserve" x="890.0" y="428.0" font-size="13" fill="#1F2937" text-anchor="middle">/ cam → OPEN</text>
+<text xml:space="preserve" x="890.0" y="483.0" font-size="13" fill="#1F2937" text-anchor="middle">hatch opened, or timeout</text>
+<text xml:space="preserve" x="890.0" y="500.0" font-size="13" fill="#1F2937" text-anchor="middle">/ cam → REST,</text>
+<text xml:space="preserve" x="890.0" y="517.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-family="Menlo, Consolas, monospace">OK opened|timeout</tspan></text>
+<text xml:space="preserve" x="1090.0" y="614.0" font-size="15" fill="#111827" text-anchor="middle" font-weight="bold">DISPENSING</text>
+<text xml:space="preserve" x="1090.0" y="631.0" font-size="12" fill="#4B5563" text-anchor="middle">≤ 5.0 s (≈ 3.2 s if in front)</text>
+<text xml:space="preserve" x="1090.0" y="659.5" font-size="12" fill="#1F2937" text-anchor="middle">1  pre-weigh (median 7)</text>
+<text xml:space="preserve" x="1090.0" y="693.5" font-size="12" fill="#1F2937" text-anchor="middle">2  move S1 (if needed)</text>
+<text xml:space="preserve" x="1090.0" y="727.5" font-size="12" fill="#1F2937" text-anchor="middle">3  disc LOAD → REST</text>
+<text xml:space="preserve" x="1090.0" y="761.5" font-size="12" fill="#1F2937" text-anchor="middle">4  settle 1.0 s</text>
+<text xml:space="preserve" x="1090.0" y="795.5" font-size="12" fill="#1F2937" text-anchor="middle">5  post-weigh (median 7)</text>
+<text xml:space="preserve" x="890.0" y="625.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-family="Menlo, Consolas, monospace">DISPENSE k</tspan> [hatch CLOSED]</text>
+<text xml:space="preserve" x="890.0" y="642.0" font-size="13" fill="#1F2937" text-anchor="middle">/ start pre-weigh</text>
+<text xml:space="preserve" x="890.0" y="697.0" font-size="13" fill="#1F2937" text-anchor="middle">post-weigh done</text>
+<text xml:space="preserve" x="890.0" y="714.0" font-size="13" fill="#1F2937" text-anchor="middle">/ <tspan font-family="Menlo, Consolas, monospace">OK col pre post</tspan></text>
+<text xml:space="preserve" x="460.0" y="677.0" font-size="15" fill="#111827" text-anchor="middle" font-weight="bold">FAULT</text>
+<text xml:space="preserve" x="460.0" y="695.0" font-size="12" fill="#4B5563" text-anchor="middle">PWM off, awaits RESET</text>
+<text xml:space="preserve" x="434.0" y="560.0" font-size="13" fill="#1F2937"><tspan font-family="Menlo, Consolas, monospace">RESET</tspan> from host</text>
+<text xml:space="preserve" x="434.0" y="577.0" font-size="13" fill="#1F2937">or reboot</text>
+<text xml:space="preserve" x="810.0" y="884.0" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">any state</text>
+<text xml:space="preserve" x="810.0" y="903.0" font-size="12" fill="#4B5563" text-anchor="middle">incl. MOVING, UNLOCK_WINDOW, DISPENSING</text>
+<text xml:space="preserve" x="214.0" y="592.0" font-size="13" fill="#1F2937">no host traffic 10 s</text>
+<text xml:space="preserve" x="214.0" y="609.0" font-size="13" fill="#1F2937">/ PWM off</text>
+<text xml:space="preserve" x="474.0" y="800.0" font-size="13" fill="#1F2937">HW fault (I2C / HX711 / RFID)</text>
+<text xml:space="preserve" x="474.0" y="817.0" font-size="13" fill="#1F2937">/ <tspan font-family="Menlo, Consolas, monospace">! FAULT</tspan>, PWM off</text>
+<text xml:space="preserve" x="1230.0" y="130.0" font-size="14" fill="#111827" font-weight="bold">Always running in every state</text>
+<text xml:space="preserve" x="1246.0" y="156.0" font-size="13" fill="#1F2937"><tspan font-weight="bold">Hatch monitor</tspan> — debounce 50 ms</text>
+<text xml:space="preserve" x="1246.0" y="174.0" font-size="13" fill="#1F2937">→ <tspan font-family="Menlo, Consolas, monospace">! HATCH OPEN|CLOSED</tspan></text>
+<text xml:space="preserve" x="1246.0" y="192.0" font-size="13" fill="#1F2937">opened outside UNLOCK_WINDOW</text>
+<text xml:space="preserve" x="1246.0" y="210.0" font-size="13" fill="#1F2937">→ <tspan font-family="Menlo, Consolas, monospace">! FORCED</tspan></text>
+<text xml:space="preserve" x="1246.0" y="236.0" font-size="13" fill="#1F2937"><tspan font-weight="bold">RFID poll</tspan> every 100 ms → <tspan font-family="Menlo, Consolas, monospace">! TAG</tspan></text>
+<text xml:space="preserve" x="1246.0" y="262.0" font-size="13" fill="#1F2937"><tspan font-weight="bold">Accelerometer</tspan> shock → <tspan font-family="Menlo, Consolas, monospace">! SHOCK</tspan></text>
+<text xml:space="preserve" x="1246.0" y="280.0" font-size="13" fill="#1F2937">(ignored while S1 / S2 move)</text>
+<text xml:space="preserve" x="1246.0" y="306.0" font-size="13" fill="#1F2937"><tspan font-weight="bold">Heartbeat</tspan> <tspan font-family="Menlo, Consolas, monospace">! HB</tspan> at 1 Hz</text>
+<text xml:space="preserve" x="1230.0" y="368.0" font-size="14" fill="#111827" font-weight="bold">Interlocks</text>
+<text xml:space="preserve" x="1246.0" y="394.0" font-size="13" fill="#1F2937">Turret moves only with the disc at REST,</text>
+<text xml:space="preserve" x="1246.0" y="412.0" font-size="13" fill="#1F2937">the hatch CLOSED and no unlock window</text>
+<text xml:space="preserve" x="1246.0" y="438.0" font-size="13" fill="#1F2937">Disc always ends at REST</text>
+<text xml:space="preserve" x="1246.0" y="456.0" font-size="13" fill="#1F2937">(driven there at boot)</text>
+<text xml:space="preserve" x="1246.0" y="482.0" font-size="13" fill="#1F2937">Cam always returns to REST</text>
+<text xml:space="preserve" x="1246.0" y="508.0" font-size="13" fill="#1F2937">One servo MOVING at a time</text>
+<text xml:space="preserve" x="1246.0" y="526.0" font-size="13" fill="#1F2937">(S1 holds while S2 moves)</text>
+<text xml:space="preserve" x="1246.0" y="552.0" font-size="13" fill="#1F2937">Max unlock window 10 s</text>
+<text xml:space="preserve" x="1246.0" y="578.0" font-size="13" fill="#1F2937">Device never decides auth</text>
+<text xml:space="preserve" x="1230.0" y="640.0" font-size="14" fill="#111827" font-weight="bold">Notation</text>
+<text xml:space="preserve" x="1266.0" y="669.0" font-size="12" fill="#4B5563">initial pseudo-state</text>
+<text xml:space="preserve" x="1266.0" y="698.0" font-size="12" fill="#4B5563">transition: <tspan font-style="italic">event [guard] / action</tspan></text>
+<text xml:space="preserve" x="1266.0" y="730.0" font-size="12" fill="#4B5563">SAFE</text>
+<text xml:space="preserve" x="1374.0" y="730.0" font-size="12" fill="#4B5563">normal</text>
+<text xml:space="preserve" x="1482.0" y="730.0" font-size="12" fill="#4B5563">FAULT</text>
+<text xml:space="preserve" x="1230.0" y="752.0" font-size="12" fill="#4B5563">Monospace tokens are serial-protocol strings.</text>
+<text xml:space="preserve" x="40.0" y="48.0" font-size="24" fill="#111827" font-weight="bold">Fig 15 — Device firmware state machine</text>
+<text xml:space="preserve" x="40.0" y="74.0" font-size="14" fill="#4B5563">micro:bit MicroPython firmware (v2.1 Med Tower): the host commands every motion; the device enforces the hatch and disc interlocks and falls back to SAFE.</text>
+<text xml:space="preserve" x="1560.0" y="960.0" font-size="11" fill="#9CA3AF" text-anchor="end">Smart Med Station · Hardware design v2.1 · 2026-10-07</text></g>
+</svg>

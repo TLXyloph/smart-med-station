@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1600 1947" width="1600" height="1947" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<defs><marker id="af374151" viewBox="0 0 10 10" refX="9.5" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker><marker id="afB45309" viewBox="0 0 10 10" refX="9.5" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#B45309"/></marker><marker id="af15803D" viewBox="0 0 10 10" refX="9.5" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#15803D"/></marker><marker id="af0D9488" viewBox="0 0 10 10" refX="9.5" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="af2563EB" viewBox="0 0 10 10" refX="9.5" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="ao2563EB" viewBox="0 0 10 10" refX="9.5" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto"><path d="M1,1 L10,5 L1,9" fill="none" stroke="#2563EB" stroke-width="1.5"/></marker><marker id="ao15803D" viewBox="0 0 10 10" refX="9.5" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto"><path d="M1,1 L10,5 L1,9" fill="none" stroke="#15803D" stroke-width="1.5"/></marker></defs>
+<g id="layer-frames"><polygon points="56,176 88.6,176 88.6,189 81.6,196 56,196" fill="#F3F4F6" stroke="#6B7280" stroke-width="1.2"/>
+<line x1="56.0" y1="544.0" x2="1550.0" y2="544.0" stroke="#6B7280" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="56.0" y="176.0" width="1494.0" height="444.0" fill="none" stroke="#6B7280" stroke-width="1.2"/>
+<polygon points="56,1095 100.3,1095 100.3,1108 93.3,1115 56,1115" fill="#F3F4F6" stroke="#6B7280" stroke-width="1.2"/>
+<rect x="56.0" y="1095.0" width="1494.0" height="385.0" fill="none" stroke="#6B7280" stroke-width="1.2"/></g>
+<g id="layer-life"><line x1="112.0" y1="154.0" x2="112.0" y2="1745.0" stroke="#9CA3AF" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="305.0" y1="154.0" x2="305.0" y2="1745.0" stroke="#9CA3AF" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="535.0" y1="154.0" x2="535.0" y2="1745.0" stroke="#9CA3AF" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="795.0" y1="154.0" x2="795.0" y2="1745.0" stroke="#9CA3AF" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="1000.0" y1="154.0" x2="1000.0" y2="999.0" stroke="#9CA3AF" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="1000.0" y1="1081.0" x2="1000.0" y2="1745.0" stroke="#9CA3AF" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="1160.0" y1="154.0" x2="1160.0" y2="999.0" stroke="#9CA3AF" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="1160.0" y1="1081.0" x2="1160.0" y2="1745.0" stroke="#9CA3AF" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="1318.0" y1="154.0" x2="1318.0" y2="999.0" stroke="#9CA3AF" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="1318.0" y1="1081.0" x2="1318.0" y2="1745.0" stroke="#9CA3AF" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="1484.0" y1="154.0" x2="1484.0" y2="999.0" stroke="#9CA3AF" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="1484.0" y1="1081.0" x2="1484.0" y2="1745.0" stroke="#9CA3AF" stroke-width="1.3" stroke-dasharray="6 5"/></g>
+<g id="layer-bars"><rect x="529.0" y="221.0" width="12.0" height="1510.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.2"/>
+<rect x="789.0" y="283.0" width="12.0" height="58.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.2"/>
+<rect x="789.0" y="424.0" width="12.0" height="58.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.2"/>
+<rect x="789.0" y="651.0" width="12.0" height="106.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.2"/>
+<rect x="789.0" y="778.0" width="12.0" height="213.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.2"/>
+<rect x="789.0" y="1171.0" width="12.0" height="58.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.2"/>
+<rect x="789.0" y="1315.0" width="12.0" height="103.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.2"/>
+<rect x="789.0" y="1559.0" width="12.0" height="41.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.2"/>
+<rect x="789.0" y="1621.0" width="12.0" height="41.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.2"/></g>
+<g id="layer-shapes"><rect x="905.0" y="999.0" width="651.0" height="82.0" fill="#FEF3C7" stroke="#B45309" stroke-width="2" rx="8"/>
+<circle cx="933" cy="1040.0" r="13" fill="#B45309"/>
+<rect x="42.0" y="96.0" width="140.0" height="58.0" fill="#F3F4F6" stroke="#374151" stroke-width="1.6" rx="7"/>
+<rect x="235.0" y="96.0" width="140.0" height="58.0" fill="#F3F4F6" stroke="#374151" stroke-width="1.6" rx="7"/>
+<rect x="465.0" y="96.0" width="140.0" height="58.0" fill="#DDD6FE" stroke="#6D28D9" stroke-width="1.6" rx="7"/>
+<rect x="725.0" y="96.0" width="140.0" height="58.0" fill="#DDD6FE" stroke="#6D28D9" stroke-width="1.6" rx="7"/>
+<rect x="930.0" y="96.0" width="140.0" height="58.0" fill="#FDE68A" stroke="#B45309" stroke-width="1.6" rx="7"/>
+<rect x="1090.0" y="96.0" width="140.0" height="58.0" fill="#FDE68A" stroke="#B45309" stroke-width="1.6" rx="7"/>
+<rect x="1248.0" y="96.0" width="140.0" height="58.0" fill="#BBF7D0" stroke="#15803D" stroke-width="1.6" rx="7"/>
+<rect x="1414.0" y="96.0" width="140.0" height="58.0" fill="#BBF7D0" stroke="#15803D" stroke-width="1.6" rx="7"/>
+<rect x="40.0" y="1773.0" width="900.0" height="124.0" fill="#F9FAFB" stroke="#D1D5DB" stroke-width="1" rx="6"/>
+<rect x="652.7" y="1834.0" width="12.0" height="20.0" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.2"/>
+<rect x="970.0" y="1773.0" width="590.0" height="124.0" fill="#FFFBEB" stroke="#B45309" stroke-width="1.2" rx="6"/></g>
+<g id="layer-lines"><line x1="112.0" y1="225.0" x2="529.0" y2="225.0" stroke="#374151" stroke-width="1.6" marker-end="url(#af374151)"/>
+<line x1="112.0" y1="256.0" x2="1484.0" y2="256.0" stroke="#B45309" stroke-width="1.6" marker-end="url(#afB45309)"/>
+<line x1="1484.0" y1="287.0" x2="801.0" y2="287.0" stroke="#15803D" stroke-width="1.6" marker-end="url(#af15803D)"/>
+<line x1="789.0" y1="335.0" x2="541.0" y2="335.0" stroke="#0D9488" stroke-width="1.6" marker-end="url(#af0D9488)"/>
+<line x1="305.0" y1="366.0" x2="529.0" y2="366.0" stroke="#374151" stroke-width="1.6" marker-end="url(#af374151)"/>
+<line x1="305.0" y1="397.0" x2="1484.0" y2="397.0" stroke="#B45309" stroke-width="1.6" marker-end="url(#afB45309)"/>
+<line x1="1484.0" y1="428.0" x2="801.0" y2="428.0" stroke="#15803D" stroke-width="1.6" marker-end="url(#af15803D)"/>
+<line x1="789.0" y1="476.0" x2="541.0" y2="476.0" stroke="#0D9488" stroke-width="1.6" marker-end="url(#af0D9488)"/>
+<polyline points="541.0,494.0 575.0,494.0 575.0,526.0 542.0,526.0" fill="none" stroke="#374151" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#af374151)"/>
+<line x1="112.0" y1="606.0" x2="529.0" y2="606.0" stroke="#374151" stroke-width="1.6" marker-end="url(#af374151)"/>
+<line x1="541.0" y1="655.0" x2="789.0" y2="655.0" stroke="#2563EB" stroke-width="1.6" marker-end="url(#af2563EB)"/>
+<line x1="801.0" y1="720.0" x2="1000.0" y2="720.0" stroke="#B45309" stroke-width="1.6" marker-end="url(#afB45309)"/>
+<line x1="789.0" y1="751.0" x2="541.0" y2="751.0" stroke="#2563EB" stroke-width="1.6" stroke-dasharray="7 4" marker-end="url(#ao2563EB)"/>
+<line x1="541.0" y1="782.0" x2="789.0" y2="782.0" stroke="#2563EB" stroke-width="1.6" marker-end="url(#af2563EB)"/>
+<line x1="801.0" y1="830.0" x2="1160.0" y2="830.0" stroke="#B45309" stroke-width="1.6" marker-end="url(#afB45309)"/>
+<line x1="112.0" y1="861.0" x2="1160.0" y2="861.0" stroke="#B45309" stroke-width="1.6" marker-end="url(#afB45309)"/>
+<line x1="1160.0" y1="892.0" x2="801.0" y2="892.0" stroke="#15803D" stroke-width="1.6" marker-end="url(#af15803D)"/>
+<line x1="789.0" y1="923.0" x2="541.0" y2="923.0" stroke="#0D9488" stroke-width="1.6" marker-end="url(#af0D9488)"/>
+<line x1="789.0" y1="954.0" x2="541.0" y2="954.0" stroke="#2563EB" stroke-width="1.6" stroke-dasharray="7 4" marker-end="url(#ao2563EB)"/>
+<line x1="801.0" y1="985.0" x2="1160.0" y2="985.0" stroke="#B45309" stroke-width="1.6" marker-end="url(#afB45309)"/>
+<line x1="112.0" y1="1144.0" x2="1484.0" y2="1144.0" stroke="#B45309" stroke-width="1.6" marker-end="url(#afB45309)"/>
+<line x1="1484.0" y1="1175.0" x2="801.0" y2="1175.0" stroke="#15803D" stroke-width="1.6" marker-end="url(#af15803D)"/>
+<line x1="789.0" y1="1223.0" x2="541.0" y2="1223.0" stroke="#0D9488" stroke-width="1.6" marker-end="url(#af0D9488)"/>
+<line x1="112.0" y1="1288.0" x2="1000.0" y2="1288.0" stroke="#B45309" stroke-width="1.6" marker-end="url(#afB45309)"/>
+<line x1="541.0" y1="1319.0" x2="789.0" y2="1319.0" stroke="#2563EB" stroke-width="1.6" marker-end="url(#af2563EB)"/>
+<line x1="801.0" y1="1350.0" x2="1318.0" y2="1350.0" stroke="#15803D" stroke-width="1.6" marker-end="url(#af15803D)"/>
+<line x1="1318.0" y1="1381.0" x2="801.0" y2="1381.0" stroke="#15803D" stroke-width="1.6" stroke-dasharray="7 4" marker-end="url(#ao15803D)"/>
+<line x1="789.0" y1="1412.0" x2="541.0" y2="1412.0" stroke="#2563EB" stroke-width="1.6" stroke-dasharray="7 4" marker-end="url(#ao2563EB)"/>
+<polyline points="541.0,1430.0 575.0,1430.0 575.0,1462.0 542.0,1462.0" fill="none" stroke="#374151" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#af374151)"/>
+<line x1="112.0" y1="1532.0" x2="1160.0" y2="1532.0" stroke="#B45309" stroke-width="1.6" marker-end="url(#afB45309)"/>
+<line x1="1160.0" y1="1563.0" x2="801.0" y2="1563.0" stroke="#15803D" stroke-width="1.6" marker-end="url(#af15803D)"/>
+<line x1="789.0" y1="1594.0" x2="541.0" y2="1594.0" stroke="#0D9488" stroke-width="1.6" marker-end="url(#af0D9488)"/>
+<line x1="541.0" y1="1625.0" x2="789.0" y2="1625.0" stroke="#2563EB" stroke-width="1.6" marker-end="url(#af2563EB)"/>
+<line x1="789.0" y1="1656.0" x2="541.0" y2="1656.0" stroke="#2563EB" stroke-width="1.6" stroke-dasharray="7 4" marker-end="url(#ao2563EB)"/>
+<polyline points="541.0,1674.0 575.0,1674.0 575.0,1723.0 542.0,1723.0" fill="none" stroke="#374151" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#af374151)"/>
+<line x1="56.0" y1="1819.0" x2="102.0" y2="1819.0" stroke="#374151" stroke-width="1.6" marker-end="url(#af374151)"/>
+<line x1="56.0" y1="1843.0" x2="102.0" y2="1843.0" stroke="#2563EB" stroke-width="1.6" marker-end="url(#af2563EB)"/>
+<line x1="56.0" y1="1867.0" x2="102.0" y2="1867.0" stroke="#2563EB" stroke-width="1.6" stroke-dasharray="7 4" marker-end="url(#ao2563EB)"/>
+<line x1="345.3" y1="1819.0" x2="391.3" y2="1819.0" stroke="#0D9488" stroke-width="1.6" marker-end="url(#af0D9488)"/>
+<line x1="345.3" y1="1843.0" x2="391.3" y2="1843.0" stroke="#B45309" stroke-width="1.6" marker-end="url(#afB45309)"/>
+<line x1="345.3" y1="1867.0" x2="391.3" y2="1867.0" stroke="#15803D" stroke-width="1.6" marker-end="url(#af15803D)"/>
+<line x1="634.7" y1="1819.0" x2="680.7" y2="1819.0" stroke="#15803D" stroke-width="1.6" stroke-dasharray="7 4" marker-end="url(#ao15803D)"/></g>
+<g id="layer-text"><text xml:space="preserve" x="63.0" y="190.5" font-size="12" fill="#374151" font-weight="bold">alt</text>
+<text xml:space="preserve" x="124.0" y="191.0" font-size="12.5" fill="#374151" font-weight="bold">[CS column, e.g. 6]</text>
+<text xml:space="preserve" x="208.5" y="218.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">1a  </tspan>PIN, select column 6</text>
+<text xml:space="preserve" x="208.5" y="249.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">1b  </tspan>tap badge on pad</text>
+<text xml:space="preserve" x="1401.0" y="280.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">1c  </tspan>badge UID (SPI)</text>
+<text xml:space="preserve" x="665.0" y="311.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">1d  </tspan><tspan font-family="Menlo, Consolas, monospace">! TAG …</tspan></text>
+<text xml:space="preserve" x="665.0" y="328.0" font-size="13" fill="#1F2937" text-anchor="middle">restocker badge, 8 hex</text>
+<text xml:space="preserve" x="420.0" y="359.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">1e  </tspan>witness PIN</text>
+<text xml:space="preserve" x="420.0" y="390.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">1f  </tspan>tap badge on pad</text>
+<text xml:space="preserve" x="1401.0" y="421.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">1g  </tspan>badge UID (SPI)</text>
+<text xml:space="preserve" x="665.0" y="452.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">1h  </tspan><tspan font-family="Menlo, Consolas, monospace">! TAG …</tspan></text>
+<text xml:space="preserve" x="665.0" y="469.0" font-size="13" fill="#1F2937" text-anchor="middle">witness badge, 8 hex</text>
+<text xml:space="preserve" x="585.0" y="504.0" font-size="13" fill="#1F2937"><tspan font-weight="bold" fill="#111827">1i  </tspan>verify 2FA + witness:</text>
+<text xml:space="preserve" x="585.0" y="521.0" font-size="13" fill="#1F2937">two different authorized users</text>
+<text xml:space="preserve" x="124.0" y="561.0" font-size="12.5" fill="#374151" font-weight="bold">[regular column]</text>
+<text xml:space="preserve" x="208.5" y="582.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">1′  </tspan>normal login,</text>
+<text xml:space="preserve" x="208.5" y="599.0" font-size="13" fill="#1F2937" text-anchor="middle">select column</text>
+<text xml:space="preserve" x="665.0" y="648.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">2  </tspan><tspan font-family="Menlo, Consolas, monospace">41 GOTO 6</tspan></text>
+<text xml:space="preserve" x="897.5" y="679.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">3  </tspan>S1 to column 6, final</text>
+<text xml:space="preserve" x="897.5" y="696.0" font-size="13" fill="#1F2937" text-anchor="middle">approach from below;</text>
+<text xml:space="preserve" x="897.5" y="713.0" font-size="13" fill="#1F2937" text-anchor="middle">then PWM off</text>
+<text xml:space="preserve" x="665.0" y="744.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">4  </tspan><tspan font-family="Menlo, Consolas, monospace">41 OK col=6</tspan></text>
+<text xml:space="preserve" x="665.0" y="775.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">5  </tspan><tspan font-family="Menlo, Consolas, monospace">42 UNLOCK 5000</tspan></text>
+<text xml:space="preserve" x="897.5" y="806.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">6  </tspan>cam S3 → OPEN,</text>
+<text xml:space="preserve" x="897.5" y="823.0" font-size="13" fill="#1F2937" text-anchor="middle">retracts bolt</text>
+<text xml:space="preserve" x="208.5" y="854.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">7a  </tspan>opens hatch</text>
+<text xml:space="preserve" x="1080.0" y="885.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">7b  </tspan>switch opens</text>
+<text xml:space="preserve" x="665.0" y="916.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">7c  </tspan><tspan font-family="Menlo, Consolas, monospace">! HATCH OPEN</tspan></text>
+<text xml:space="preserve" x="665.0" y="947.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">7d  </tspan><tspan font-family="Menlo, Consolas, monospace">42 OK opened</tspan></text>
+<text xml:space="preserve" x="897.5" y="978.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">7e  </tspan>cam S3 → REST</text>
+<text xml:space="preserve" x="933.0" y="1046.5" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="bold">!</text>
+<text xml:space="preserve" x="959.0" y="1026.0" font-size="15" fill="#111827" font-weight="bold">Hatch is one column wide: only column 6 is reachable —</text>
+<text xml:space="preserve" x="959.0" y="1046.0" font-size="15" fill="#111827" font-weight="bold">CS and regular columns are never exposed together.</text>
+<text xml:space="preserve" x="959.0" y="1066.0" font-size="13" fill="#1F2937">Turret cannot move while the hatch is open (<tspan font-family="Menlo, Consolas, monospace">ERR HATCH_OPEN</tspan>).</text>
+<text xml:space="preserve" x="63.0" y="1109.5" font-size="12" fill="#374151" font-weight="bold">loop</text>
+<text xml:space="preserve" x="124.0" y="1110.0" font-size="12.5" fill="#374151" font-weight="bold">[each vial]</text>
+<text xml:space="preserve" x="208.5" y="1137.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">8a  </tspan>tap vial on pad</text>
+<text xml:space="preserve" x="1401.0" y="1168.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">8b  </tspan>vial UID (SPI)</text>
+<text xml:space="preserve" x="665.0" y="1199.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">8c  </tspan><tspan font-family="Menlo, Consolas, monospace">! TAG …</tspan></text>
+<text xml:space="preserve" x="665.0" y="1216.0" font-size="13" fill="#1F2937" text-anchor="middle">vial NTAG, 14 hex</text>
+<text xml:space="preserve" x="208.5" y="1247.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">8d  </tspan>drops vial in via hatch;</text>
+<text xml:space="preserve" x="208.5" y="1264.0" font-size="13" fill="#1F2937" text-anchor="middle">the stack rests on the flush</text>
+<text xml:space="preserve" x="208.5" y="1281.0" font-size="13" fill="#1F2937" text-anchor="middle">disc top under column 6</text>
+<text xml:space="preserve" x="665.0" y="1312.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">8e  </tspan><tspan font-family="Menlo, Consolas, monospace">43 WEIGH</tspan></text>
+<text xml:space="preserve" x="897.5" y="1343.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">8f  </tspan>read, median of n</text>
+<text xml:space="preserve" x="1239.0" y="1374.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">8g  </tspan>raw counts</text>
+<text xml:space="preserve" x="665.0" y="1405.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">8h  </tspan><tspan font-family="Menlo, Consolas, monospace">43 OK raw=&lt;median&gt;</tspan></text>
+<text xml:space="preserve" x="585.0" y="1440.0" font-size="13" fill="#1F2937"><tspan font-weight="bold" fill="#111827">8i  </tspan>record mass delta</text>
+<text xml:space="preserve" x="585.0" y="1457.0" font-size="13" fill="#1F2937">(≈ 12 g per midazolam vial)</text>
+<text xml:space="preserve" x="208.5" y="1508.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">9a  </tspan>closes hatch —</text>
+<text xml:space="preserve" x="208.5" y="1525.0" font-size="13" fill="#1F2937" text-anchor="middle">bolt self-latches</text>
+<text xml:space="preserve" x="1080.0" y="1556.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">9b  </tspan>switch closes</text>
+<text xml:space="preserve" x="665.0" y="1587.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">9c  </tspan><tspan font-family="Menlo, Consolas, monospace">! HATCH CLOSED</tspan></text>
+<text xml:space="preserve" x="665.0" y="1618.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">10a  </tspan><tspan font-family="Menlo, Consolas, monospace">44 WEIGH</tspan></text>
+<text xml:space="preserve" x="665.0" y="1649.0" font-size="13" fill="#1F2937" text-anchor="middle"><tspan font-weight="bold" fill="#111827">10b  </tspan><tspan font-family="Menlo, Consolas, monospace">44 OK raw=&lt;median&gt;</tspan></text>
+<text xml:space="preserve" x="585.0" y="1684.0" font-size="13" fill="#1F2937"><tspan font-weight="bold" fill="#111827">11  </tspan>reconcile count vs ledger</text>
+<text xml:space="preserve" x="585.0" y="1701.0" font-size="13" fill="#1F2937">(Σ count × unit mass);</text>
+<text xml:space="preserve" x="585.0" y="1718.0" font-size="13" fill="#1F2937">log restock + user IDs</text>
+<text xml:space="preserve" x="112.0" y="120.0" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">Restocker</text>
+<text xml:space="preserve" x="112.0" y="139.0" font-size="12" fill="#4B5563" text-anchor="middle">crew / pharmacy</text>
+<text xml:space="preserve" x="305.0" y="120.0" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">Witness</text>
+<text xml:space="preserve" x="305.0" y="139.0" font-size="12" fill="#4B5563" text-anchor="middle">crew #2</text>
+<text xml:space="preserve" x="535.0" y="120.0" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">Host UI</text>
+<text xml:space="preserve" x="535.0" y="139.0" font-size="12" fill="#4B5563" text-anchor="middle">Orange Pi 5</text>
+<text xml:space="preserve" x="795.0" y="120.0" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">Device FW</text>
+<text xml:space="preserve" x="795.0" y="139.0" font-size="12" fill="#4B5563" text-anchor="middle">micro:bit + robot:bit</text>
+<text xml:space="preserve" x="1000.0" y="120.0" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">Turret</text>
+<text xml:space="preserve" x="1000.0" y="139.0" font-size="12" fill="#4B5563" text-anchor="middle">servo S1 (MG90S)</text>
+<text xml:space="preserve" x="1160.0" y="120.0" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">Hatch</text>
+<text xml:space="preserve" x="1160.0" y="139.0" font-size="12" fill="#4B5563" text-anchor="middle">S3 latch + switch</text>
+<text xml:space="preserve" x="1318.0" y="120.0" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">Load cell</text>
+<text xml:space="preserve" x="1318.0" y="139.0" font-size="12" fill="#4B5563" text-anchor="middle">HX711 + 1 kg bar</text>
+<text xml:space="preserve" x="1484.0" y="120.0" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">RFID reader</text>
+<text xml:space="preserve" x="1484.0" y="139.0" font-size="12" fill="#4B5563" text-anchor="middle">RC522</text>
+<text xml:space="preserve" x="56.0" y="1797.0" font-size="13" fill="#111827" font-weight="bold">Legend</text>
+<text xml:space="preserve" x="114.0" y="1823.0" font-size="12" fill="#4B5563">UI input / display, internal step</text>
+<text xml:space="preserve" x="114.0" y="1847.0" font-size="12" fill="#4B5563">host → device command</text>
+<text xml:space="preserve" x="114.0" y="1871.0" font-size="12" fill="#4B5563">device reply</text>
+<text xml:space="preserve" x="403.3" y="1823.0" font-size="12" fill="#4B5563">async device event (!)</text>
+<text xml:space="preserve" x="403.3" y="1847.0" font-size="12" fill="#4B5563">physical action / mechanism</text>
+<text xml:space="preserve" x="403.3" y="1871.0" font-size="12" fill="#4B5563">sensor read / signal</text>
+<text xml:space="preserve" x="692.7" y="1823.0" font-size="12" fill="#4B5563">sensor value returned</text>
+<text xml:space="preserve" x="692.7" y="1847.0" font-size="12" fill="#4B5563">activation (busy)</text>
+<text xml:space="preserve" x="986.0" y="1797.0" font-size="13" fill="#111827" font-weight="bold">Notes</text>
+<text xml:space="preserve" x="986.0" y="1821.0" font-size="13" fill="#1F2937"><tspan font-weight="bold">Auth: </tspan>the host checks the login (CS: 2FA + witness) before</text>
+<text xml:space="preserve" x="1000.0" y="1839.0" font-size="13" fill="#1F2937"><tspan font-family="Menlo, Consolas, monospace">UNLOCK</tspan>; the device never decides auth.</text>
+<text xml:space="preserve" x="986.0" y="1863.0" font-size="13" fill="#1F2937">Sequence numbers (41–44) are illustrative; <tspan font-family="Menlo, Consolas, monospace">43 WEIGH</tspan> repeats</text>
+<text xml:space="preserve" x="1000.0" y="1881.0" font-size="13" fill="#1F2937">once per vial with a new <tspan font-family="Menlo, Consolas, monospace">&lt;seq&gt;</tspan>.</text>
+<text xml:space="preserve" x="40.0" y="48.0" font-size="24" fill="#111827" font-weight="bold">Fig 12 — Sequence: restocking one column (CS isolation by position)</text>
+<text xml:space="preserve" x="40.0" y="74.0" font-size="14" fill="#4B5563">Column 6 (midazolam, CS) is turned under the one-column hatch; each vial is tapped and weighed in; the host reconciles the count.</text>
+<text xml:space="preserve" x="1560.0" y="1927.0" font-size="11" fill="#9CA3AF" text-anchor="end">Smart Med Station · Hardware design v2.1 · 2026-10-07</text></g>
+</svg>

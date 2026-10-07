@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 1270" width="1600" height="1270" font-family="Helvetica, Arial, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Fig 14 — Pin map and wiring</title>
+  <style>
+    .sec { font-size: 12px; fill: #4B5563; }
+    .sm  { font-size: 11px; fill: #4B5563; }
+    .mid { text-anchor: middle; }
+    .mono { font-family: Menlo, Consolas, "Courier New", monospace; }
+    .pin { font-family: Menlo, Consolas, "Courier New", monospace; font-size: 12px; font-weight: bold; fill: #1F2937; }
+    .fn  { font-size: 12px; fill: #374151; }
+    .cell { font-size: 12px; fill: #1F2937; }
+    .note { font-size: 11px; fill: #374151; }
+    .w { fill: none; stroke-width: 2.25; stroke-linejoin: round; stroke-linecap: round; }
+  </style>
+  <defs>
+    <marker id="aBlu" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,1 L10,5 L0,9 z" fill="#2563EB"/>
+    </marker>
+    <marker id="aPur" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,1 L10,5 L0,9 z" fill="#7C3AED"/>
+    </marker>
+    <marker id="aRed" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto">
+      <path d="M0,1 L10,5 L0,9 z" fill="#DC2626"/>
+    </marker>
+    <g id="gnd">
+      <line x1="-12" y1="0" x2="12" y2="0" stroke="#111827" stroke-width="2"/>
+      <line x1="-8" y1="5" x2="8" y2="5" stroke="#111827" stroke-width="2"/>
+      <line x1="-4" y1="10" x2="4" y2="10" stroke="#111827" stroke-width="2"/>
+    </g>
+    <g id="warn">
+      <path d="M12,1 L23,21 L1,21 Z" fill="#DC2626"/>
+      <rect x="11" y="7" width="2.4" height="8" fill="#FFFFFF"/>
+      <rect x="11" y="16.5" width="2.4" height="2.4" fill="#FFFFFF"/>
+    </g>
+  </defs>
+
+  <!-- Header -->
+  <text x="40" y="48" font-size="24" font-weight="bold" fill="#111827">Fig 14 — Pin map and wiring</text>
+  <text x="40" y="74" font-size="14" fill="#4B5563">micro:bit V2 seated in robot:bit V2 — 7 of 8 breakout pins used (P12 spare); RC522 and HX711 on 3.3 V, servos S1–S3 on the robot:bit VM rail.</text>
+
+  <!-- ================= Controller block ================= -->
+  <rect x="600" y="180" width="400" height="650" rx="10" fill="#F5F3FF"/>
+  <path d="M600,220 V190 A10,10 0 0 1 610,180 H990 A10,10 0 0 1 1000,190 V220 Z" fill="#DDD6FE"/>
+  <line x1="600" y1="220" x2="1000" y2="220" stroke="#6D28D9" stroke-width="1"/>
+  <text x="800" y="207" font-size="16" font-weight="bold" fill="#1F2937" text-anchor="middle">micro:bit V2 in robot:bit</text>
+  <text x="616" y="242" font-size="11" font-weight="bold" fill="#5B21B6" letter-spacing="0.5">BREAKOUT HEADER (GVS) · 7 pins used, P12 spare</text>
+
+  <!-- header rows: y = 266 + 36 i -->
+  <g>
+    <rect x="608" y="250" width="384" height="32" rx="4" fill="#FFFFFF"/>
+    <rect x="608" y="286" width="384" height="32" rx="4" fill="#EDE9FE"/>
+    <rect x="608" y="322" width="384" height="32" rx="4" fill="#FFFFFF"/>
+    <rect x="608" y="358" width="384" height="32" rx="4" fill="#EDE9FE"/>
+    <rect x="608" y="394" width="384" height="32" rx="4" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="1" stroke-dasharray="4,3"/>
+    <rect x="608" y="430" width="384" height="32" rx="4" fill="#EDE9FE"/>
+    <rect x="608" y="466" width="384" height="32" rx="4" fill="#FFFFFF"/>
+    <rect x="608" y="502" width="384" height="32" rx="4" fill="#EDE9FE"/>
+    <rect x="608" y="538" width="384" height="32" rx="4" fill="#FFF7ED"/>
+    <rect x="608" y="574" width="384" height="32" rx="4" fill="#F3F4F6"/>
+  </g>
+  <g class="mono" font-size="14" font-weight="bold" fill="#1F2937">
+    <text x="618" y="271">P0</text>
+    <text x="618" y="307">P1</text>
+    <text x="618" y="343">P2</text>
+    <text x="618" y="379">P8</text>
+    <text x="618" y="415" fill="#9CA3AF">P12</text>
+    <text x="618" y="451">P13</text>
+    <text x="618" y="487">P14</text>
+    <text x="618" y="523">P15</text>
+    <text x="618" y="559" fill="#C2410C">3V3</text>
+    <text x="618" y="595">GND</text>
+  </g>
+  <text x="672" y="270" class="fn">Hatch switch (KW11-3Z) · DIN, pull-up</text>
+  <text x="672" y="306" class="fn">HX711 PD_SCK · DOUT</text>
+  <text x="672" y="342" class="fn">HX711 DT (DOUT) · DIN</text>
+  <text x="672" y="378" class="fn">RC522 SDA/NSS (chip select) · DOUT</text>
+  <text x="672" y="414" font-size="12" font-style="italic" fill="#6B7280">SPARE · V2 accessibility pin — verify before use</text>
+  <text x="672" y="450" class="fn">RC522 SCK · SPI</text>
+  <text x="672" y="486" class="fn">RC522 MISO · SPI</text>
+  <text x="672" y="522" class="fn">RC522 MOSI · SPI</text>
+  <text x="672" y="558" class="fn">3.3 V out (micro:bit regulator)</text>
+  <text x="672" y="594" class="fn">Common ground</text>
+
+  <!-- onboard section -->
+  <line x1="608" y1="616" x2="992" y2="616" stroke="#C4B5FD" stroke-width="1"/>
+  <text x="616" y="636" font-size="11" font-weight="bold" fill="#5B21B6" letter-spacing="0.5">ONBOARD (robot:bit V2)</text>
+  <rect x="616" y="646" width="176" height="48" rx="5" fill="#DDD6FE" stroke="#6D28D9" stroke-width="1"/>
+  <text x="626" y="667" class="mono" font-size="13" font-weight="bold" fill="#1F2937">P16</text>
+  <line x1="660" y1="662" x2="690" y2="662" stroke="#2563EB" stroke-width="2" marker-end="url(#aBlu)"/>
+  <text x="696" y="667" font-size="12" font-weight="bold" fill="#1F2937">4× RGB LEDs</text>
+  <text x="626" y="685" class="sm">WS2812 · status lights</text>
+  <rect x="808" y="646" width="176" height="48" rx="5" fill="#DDD6FE" stroke="#6D28D9" stroke-width="1"/>
+  <text x="818" y="667" class="mono" font-size="12" font-weight="bold" fill="#1F2937">P19/P20</text>
+  <line x1="872" y1="662" x2="896" y2="662" stroke="#7C3AED" stroke-width="2.5" marker-end="url(#aPur)"/>
+  <text x="900" y="667" font-size="12" font-weight="bold" fill="#1F2937">PCA9685</text>
+  <text x="818" y="685" class="sm">I2C @0x40 · 50 Hz</text>
+  <rect x="616" y="704" width="368" height="32" rx="5" fill="#FFFFFF" stroke="#DC2626" stroke-width="2"/>
+  <text x="800" y="725" font-size="13" font-weight="bold" fill="#DC2626" text-anchor="middle">Buzzer jumper REMOVED (frees P0)</text>
+  <text x="624" y="763" font-size="12" fill="#1F2937">DC IN 5 V → servo rail VM (servo V+)</text>
+  <text x="800" y="792" class="sm mid">PCA9685 ch 8–15 → ports S1–S8 · S1–S3 used, S4–S8 spare</text>
+  <g font-size="11" font-weight="bold" text-anchor="middle" fill="#1F2937">
+    <text x="624" y="815">S1</text><text x="672" y="815">S2</text><text x="720" y="815">S3</text>
+    <text x="768" y="815" fill="#9CA3AF">S4</text><text x="816" y="815" fill="#9CA3AF">S5</text>
+    <text x="864" y="815" fill="#9CA3AF">S6</text><text x="912" y="815" fill="#9CA3AF">S7</text><text x="960" y="815" fill="#9CA3AF">S8</text>
+  </g>
+  <rect x="600" y="180" width="400" height="650" rx="10" fill="none" stroke="#6D28D9" stroke-width="2"/>
+  <rect x="592" y="746" width="24" height="24" rx="3" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.5"/>
+
+  <!-- ================= Left: hatch switch ================= -->
+  <rect x="150" y="222" width="230" height="100" rx="8" fill="#BBF7D0" stroke="#15803D" stroke-width="1.5"/>
+  <text x="164" y="244" font-size="13" font-weight="bold" fill="#1F2937">Hatch switch · KW11-3Z</text>
+  <text x="164" y="260" class="note">COM → GND, NO → P0</text>
+  <text x="370" y="270" font-size="11" font-weight="bold" fill="#374151" text-anchor="end">NO</text>
+  <text x="370" y="300" font-size="11" font-weight="bold" fill="#374151" text-anchor="end">COM</text>
+  <g stroke="#15803D" fill="#FFFFFF">
+    <rect x="172" y="288" width="78" height="22" rx="2" stroke-width="1.2"/>
+    <rect x="226" y="283" width="8" height="5" fill="#15803D" stroke="none"/>
+    <line x1="176" y1="287" x2="274" y2="279" stroke-width="2"/>
+    <circle cx="278" cy="278" r="4.5" stroke-width="1.5"/>
+    <rect x="182" y="310" width="4" height="6" fill="#15803D" stroke="none"/>
+    <rect x="206" y="310" width="4" height="6" fill="#15803D" stroke="none"/>
+    <rect x="230" y="310" width="4" height="6" fill="#15803D" stroke="none"/>
+  </g>
+  <path class="w" d="M380,266 H600" stroke="#2563EB"/>
+  <text x="420" y="259" font-size="11" fill="#2563EB">NO → P0</text>
+  <path class="w" d="M380,296 H412 V314" stroke="#111827"/>
+  <use xlink:href="#gnd" x="412" y="314"/>
+
+  <rect x="60" y="346" width="500" height="50" rx="6" fill="#F0FDF4" stroke="#15803D" stroke-width="1"/>
+  <text x="76" y="366" font-size="12" fill="#1F2937">Internal pull-up · LOW = hatch closed (lever pressed)</text>
+  <text x="76" y="384" font-size="12" fill="#1F2937">HIGH = hatch open or broken wire → treated as OPEN (fail-safe)</text>
+
+  <rect x="60" y="410" width="500" height="36" rx="6" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.5"/>
+  <use xlink:href="#warn" x="72" y="417"/>
+  <text x="106" y="433" font-size="12" font-weight="bold" fill="#DC2626">Never route audio to P0 — alerts use the speaker only</text>
+
+  <!-- servo supply -->
+  <rect x="60" y="726" width="290" height="56" rx="6" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.5"/>
+  <text x="76" y="749" font-size="13" font-weight="bold" fill="#1F2937">5 V / ≥2.5 A supply (3 A max)</text>
+  <text x="76" y="767" class="note">external · primary servo power</text>
+  <path class="w" d="M350,758 H592" stroke="#DC2626" style="stroke-width:2.5"/>
+  <text x="450" y="750" font-size="11" fill="#DC2626">+5 V → DC IN</text>
+  <path class="w" d="M350,774 H372 V786" stroke="#111827"/>
+  <use xlink:href="#gnd" x="372" y="786"/>
+
+  <!-- ================= Right-top: RC522 ================= -->
+  <rect x="1260" y="88" width="140" height="200" rx="6" fill="#BBF7D0" stroke="#15803D" stroke-width="1.5"/>
+  <g fill="none" stroke="#15803D" stroke-width="1.2">
+    <rect x="1318" y="100" width="70" height="176" rx="8"/>
+    <rect x="1326" y="108" width="54" height="160" rx="6"/>
+    <rect x="1334" y="116" width="38" height="144" rx="4"/>
+  </g>
+  <text x="1270" y="108" class="pin">SDA</text>
+  <text x="1270" y="132" class="pin">SCK</text>
+  <text x="1270" y="156" class="pin">MOSI</text>
+  <text x="1270" y="180" class="pin">MISO</text>
+  <text x="1270" y="204" class="pin">IRQ</text>
+  <text x="1270" y="228" class="pin">GND</text>
+  <text x="1270" y="252" class="pin">RST</text>
+  <text x="1270" y="276" class="pin">3.3V</text>
+  <text x="1410" y="110" font-size="15" font-weight="bold" fill="#1F2937">RC522</text>
+  <text x="1410" y="128" class="sec">RFID reader</text>
+  <text x="1410" y="148" class="note">13.56 MHz · ISO14443A</text>
+  <text x="1410" y="164" class="note">SPI 1 MHz, mode 0</text>
+  <text x="1410" y="180" class="note">front-wall TAP pad,</text>
+  <text x="1410" y="196" class="note">beside the shared tray</text>
+  <text x="1410" y="212" class="note">IRQ not connected</text>
+  <text x="1410" y="228" class="note">RST tied to 3.3 V</text>
+  <line x1="1260" y1="200" x2="1242" y2="200" stroke="#6B7280" stroke-width="1.5"/>
+  <g stroke="#DC2626" stroke-width="1.8">
+    <line x1="1233" y1="195" x2="1243" y2="205"/>
+    <line x1="1233" y1="205" x2="1243" y2="195"/>
+  </g>
+  <text x="1228" y="204" font-size="11" font-weight="bold" fill="#6B7280" text-anchor="end">NC</text>
+
+  <!-- RC522 warning -->
+  <rect x="1250" y="316" width="310" height="66" rx="6" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.5"/>
+  <use xlink:href="#warn" x="1262" y="326"/>
+  <text x="1294" y="339" font-size="13" font-weight="bold" fill="#DC2626">RC522 is 3.3 V ONLY</text>
+  <text x="1294" y="357" font-size="12" fill="#B91C1C">Measure header V pin = 3.3 V</text>
+  <text x="1294" y="373" font-size="12" fill="#B91C1C">before connecting.</text>
+
+  <!-- HX711 clock warning -->
+  <rect x="1250" y="460" width="310" height="66" rx="6" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.5"/>
+  <use xlink:href="#warn" x="1262" y="470"/>
+  <text x="1294" y="483" font-size="13" font-weight="bold" fill="#DC2626">HX711 SCK on P1</text>
+  <text x="1294" y="501" font-size="12" fill="#B91C1C">Keep the clock HIGH ≤ 50 µs per pulse</text>
+  <text x="1294" y="517" font-size="12" fill="#B91C1C">(&gt; 60 µs powers the HX711 down).</text>
+
+  <!-- ================= Right-bottom: HX711 + load cell ================= -->
+  <rect x="1260" y="600" width="160" height="156" rx="6" fill="#BBF7D0" stroke="#15803D" stroke-width="1.5"/>
+  <text x="1340" y="621" font-size="14" font-weight="bold" fill="#1F2937" text-anchor="middle">HX711</text>
+  <text x="1268" y="666" class="pin">SCK</text>
+  <text x="1268" y="692" class="pin">DT</text>
+  <text x="1268" y="718" class="pin">VCC</text>
+  <text x="1268" y="744" class="pin">GND</text>
+  <text x="1412" y="666" class="pin" text-anchor="end">E+</text>
+  <text x="1412" y="692" class="pin" text-anchor="end">E−</text>
+  <text x="1412" y="718" class="pin" text-anchor="end">A−</text>
+  <text x="1412" y="744" class="pin" text-anchor="end">A+</text>
+  <text x="1340" y="684" class="sm mid">24-bit ADC</text>
+  <text x="1340" y="700" class="sm mid">gain 128</text>
+  <text x="1262" y="776" class="sm">Header order varies by board —</text>
+  <text x="1262" y="791" class="sm">wire by silkscreen label.</text>
+
+  <!-- bridge wires (physical colors) -->
+  <path class="w" d="M1420,662 H1520 V828" stroke="#DC2626"/>
+  <path class="w" d="M1420,688 H1500 V828" stroke="#111827"/>
+  <path d="M1420,714 H1480 V828" fill="none" stroke="#6B7280" stroke-width="4.75" stroke-linejoin="round"/>
+  <path d="M1420,714 H1480 V828" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"/>
+  <path class="w" d="M1420,740 H1460 V828" stroke="#16A34A"/>
+
+  <!-- load cell (under the weighed module) -->
+  <rect x="1290" y="840" width="240" height="28" rx="3" fill="#BBF7D0" stroke="#15803D" stroke-width="1.5"/>
+  <rect x="1450" y="828" width="80" height="12" rx="2" fill="#374151"/>
+  <g fill="#FFFFFF" stroke="#15803D" stroke-width="1">
+    <circle cx="1304" cy="854" r="3.5"/><circle cx="1318" cy="854" r="3.5"/>
+    <circle cx="1502" cy="854" r="3.5"/><circle cx="1516" cy="854" r="3.5"/>
+    <path d="M1394,847 H1426 A7,7 0 0 1 1426,861 H1394 A7,7 0 0 1 1394,847 Z"/>
+  </g>
+  <rect x="1476" y="868" width="54" height="8" fill="#E5E7EB" stroke="#374151" stroke-width="1"/>
+  <line x1="1312" y1="806" x2="1312" y2="837" stroke="#DC2626" stroke-width="2" marker-end="url(#aRed)"/>
+  <text x="1320" y="820" font-size="11" fill="#DC2626">weighed module</text>
+  <text x="1290" y="894" font-size="12" fill="#1F2937">1 kg bar load cell (≈80 × 12.7 × 12.7 mm)</text>
+  <text x="1290" y="910" class="note">E+ red · E− black · A− white · A+ green</text>
+  <text x="1290" y="925" font-size="11" font-style="italic" fill="#B45309">wire colors typical — verify</text>
+
+  <!-- ================= Right-side wiring (horizontal wires hop over vertical ones) ================= -->
+  <!-- RC522 SPI -->
+  <path class="w" d="M1000,374 H1020 V104 H1260" stroke="#0D9488"/>
+  <path class="w" d="M1000,446 H1042 V128 H1260" stroke="#0D9488"/>
+  <path class="w" d="M1000,482 H1064 V176 H1081 A5,5 0 0 1 1091,176 H1260" stroke="#0D9488"/>
+  <path class="w" d="M1000,518 H1086 V152 H1260" stroke="#0D9488"/>
+  <!-- GND -->
+  <path class="w" d="M1000,590 H1108 V224 H1260" stroke="#111827"/>
+  <path class="w" d="M1108,590 H1152 V740 H1260" stroke="#111827"/>
+  <!-- 3V3 -->
+  <path class="w" d="M1000,554 H1103 A5,5 0 0 1 1113,554 H1130 V248 H1260" stroke="#EA580C"/>
+  <path class="w" d="M1130,272 H1260" stroke="#EA580C"/>
+  <path class="w" d="M1130,554 H1172 V714 H1260" stroke="#EA580C"/>
+  <!-- HX711 signals: P1 -> SCK, P2 -> DT -->
+  <path class="w" d="M1000,302 H1015 A5,5 0 0 1 1025,302 H1037 A5,5 0 0 1 1047,302 H1059 A5,5 0 0 1 1069,302 H1081 A5,5 0 0 1 1091,302 H1103 A5,5 0 0 1 1113,302 H1125 A5,5 0 0 1 1135,302 H1212 V662 H1260" stroke="#2563EB"/>
+  <path class="w" d="M1000,338 H1015 A5,5 0 0 1 1025,338 H1037 A5,5 0 0 1 1047,338 H1059 A5,5 0 0 1 1069,338 H1081 A5,5 0 0 1 1091,338 H1103 A5,5 0 0 1 1113,338 H1125 A5,5 0 0 1 1135,338 H1192 V688 H1260" stroke="#2563EB"/>
+  <!-- junctions -->
+  <circle cx="1108" cy="590" r="4" fill="#111827"/>
+  <circle cx="1130" cy="554" r="4" fill="#EA580C"/>
+  <circle cx="1130" cy="272" r="4" fill="#EA580C"/>
+
+  <!-- pads -->
+  <g fill="#FFFFFF" stroke="#374151" stroke-width="1.5">
+    <circle cx="600" cy="266" r="4"/>
+    <circle cx="1000" cy="302" r="4"/><circle cx="1000" cy="338" r="4"/><circle cx="1000" cy="374" r="4"/>
+    <circle cx="1000" cy="446" r="4"/><circle cx="1000" cy="482" r="4"/><circle cx="1000" cy="518" r="4"/>
+    <circle cx="1000" cy="554" r="4"/><circle cx="1000" cy="590" r="4"/>
+    <circle cx="380" cy="266" r="3.5"/><circle cx="380" cy="296" r="3.5"/>
+    <circle cx="1260" cy="104" r="3.5"/><circle cx="1260" cy="128" r="3.5"/><circle cx="1260" cy="152" r="3.5"/>
+    <circle cx="1260" cy="176" r="3.5"/><circle cx="1260" cy="200" r="3.5"/><circle cx="1260" cy="224" r="3.5"/>
+    <circle cx="1260" cy="248" r="3.5"/><circle cx="1260" cy="272" r="3.5"/>
+    <circle cx="1260" cy="662" r="3.5"/><circle cx="1260" cy="688" r="3.5"/><circle cx="1260" cy="714" r="3.5"/><circle cx="1260" cy="740" r="3.5"/>
+    <circle cx="1420" cy="662" r="3.5"/><circle cx="1420" cy="688" r="3.5"/><circle cx="1420" cy="714" r="3.5"/><circle cx="1420" cy="740" r="3.5"/>
+  </g>
+  <circle cx="1000" cy="410" r="4" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="1.5" stroke-dasharray="2,2"/>
+
+  <!-- ================= Bottom: servo leads (brown G, red V+, orange S) ================= -->
+  <g class="w" stroke-width="2">
+    <path d="M612,834 V850 H268 V960" stroke="#7C2D12"/>
+    <path d="M624,834 V860 H280 V960" stroke="#DC2626"/>
+    <path d="M636,834 V870 H292 V960" stroke="#F97316"/>
+    <path d="M660,834 V884 H488 V960" stroke="#7C2D12"/>
+    <path d="M672,834 V894 H500 V960" stroke="#DC2626"/>
+    <path d="M684,834 V904 H512 V960" stroke="#F97316"/>
+    <path d="M708,834 V960" stroke="#7C2D12"/>
+    <path d="M720,834 V960" stroke="#DC2626"/>
+    <path d="M732,834 V960" stroke="#F97316"/>
+  </g>
+  <g stroke-width="1">
+    <g fill="#FDE68A" stroke="#B45309">
+      <rect x="608" y="826" width="8" height="8"/><rect x="620" y="826" width="8" height="8"/><rect x="632" y="826" width="8" height="8"/>
+      <rect x="656" y="826" width="8" height="8"/><rect x="668" y="826" width="8" height="8"/><rect x="680" y="826" width="8" height="8"/>
+      <rect x="704" y="826" width="8" height="8"/><rect x="716" y="826" width="8" height="8"/><rect x="728" y="826" width="8" height="8"/>
+    </g>
+    <g fill="#F3F4F6" stroke="#9CA3AF">
+      <rect x="752" y="826" width="8" height="8"/><rect x="764" y="826" width="8" height="8"/><rect x="776" y="826" width="8" height="8"/>
+      <rect x="800" y="826" width="8" height="8"/><rect x="812" y="826" width="8" height="8"/><rect x="824" y="826" width="8" height="8"/>
+      <rect x="848" y="826" width="8" height="8"/><rect x="860" y="826" width="8" height="8"/><rect x="872" y="826" width="8" height="8"/>
+      <rect x="896" y="826" width="8" height="8"/><rect x="908" y="826" width="8" height="8"/><rect x="920" y="826" width="8" height="8"/>
+      <rect x="944" y="826" width="8" height="8"/><rect x="956" y="826" width="8" height="8"/><rect x="968" y="826" width="8" height="8"/>
+    </g>
+  </g>
+  <text x="864" y="858" class="sm mid">S4–S8 spare (ch 11–15)</text>
+
+  <g fill="#FDE68A" stroke="#B45309" stroke-width="1.5">
+    <rect x="185" y="960" width="190" height="64" rx="6"/>
+    <rect x="405" y="960" width="190" height="64" rx="6"/>
+    <rect x="625" y="960" width="190" height="64" rx="6"/>
+  </g>
+  <g text-anchor="middle">
+    <text x="280" y="984" font-size="13" font-weight="bold" fill="#1F2937">S1 · turret drive</text>
+    <text x="280" y="1001" class="note">MG90S · PCA9685 ch 8</text>
+    <text x="280" y="1016" class="sm">48T → 24T gears, 2:1 step-up</text>
+    <text x="500" y="984" font-size="13" font-weight="bold" fill="#1F2937">S2 · dosing disc</text>
+    <text x="500" y="1001" class="note">MG90S · ch 9</text>
+    <text x="500" y="1016" class="sm">rests at REST, pocket empty</text>
+    <text x="720" y="984" font-size="13" font-weight="bold" fill="#1F2937">S3 · hatch latch</text>
+    <text x="720" y="1001" class="note">MG90S · ch 10</text>
+    <text x="720" y="1016" class="sm">bolt cam, fail-secure</text>
+  </g>
+  <text x="40" y="1060" class="sm">Servo V+ (red) = robot:bit VM rail: 5 V from DC IN (3.7 V on 18650 backup). S1–S8 = PCA9685 ch 8–15. ONE servo MOVING at a time (S1 holds while S2 moves); then PWM off.</text>
+
+  <!-- ================= Legend ================= -->
+  <rect x="40" y="1104" width="960" height="120" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="56" y="1126" font-size="12" font-weight="bold" fill="#374151">Legend</text>
+  <line x1="60" y1="1144" x2="92" y2="1144" stroke="#EA580C" stroke-width="2.5"/>
+  <text x="100" y="1148" font-size="12" fill="#1F2937">3.3 V</text>
+  <line x1="60" y1="1166" x2="92" y2="1166" stroke="#111827" stroke-width="2.5"/>
+  <text x="100" y="1170" font-size="12" fill="#1F2937">GND · ground symbol = common GND</text>
+  <line x1="60" y1="1188" x2="92" y2="1188" stroke="#2563EB" stroke-width="2.5"/>
+  <text x="100" y="1192" font-size="12" fill="#1F2937">Digital signal (P0, P1, P2)</text>
+  <line x1="360" y1="1144" x2="392" y2="1144" stroke="#0D9488" stroke-width="2.5"/>
+  <text x="400" y="1148" font-size="12" fill="#1F2937">SPI (P8, P13, P14, P15)</text>
+  <line x1="360" y1="1166" x2="392" y2="1166" stroke="#7C3AED" stroke-width="2.5"/>
+  <text x="400" y="1170" font-size="12" fill="#1F2937">I2C (onboard P19/P20)</text>
+  <line x1="360" y1="1188" x2="392" y2="1188" stroke="#DC2626" stroke-width="2.5"/>
+  <text x="400" y="1192" font-size="12" fill="#1F2937">5 V / servo V+ (VM)</text>
+  <line x1="676" y1="1134" x2="676" y2="1154" stroke="#111827" stroke-width="2"/>
+  <path d="M660,1144 H671 A5,5 0 0 1 681,1144 H692" fill="none" stroke="#2563EB" stroke-width="2.25"/>
+  <text x="700" y="1148" font-size="12" fill="#1F2937">hop = wires cross, not connected</text>
+  <line x1="660" y1="1166" x2="692" y2="1166" stroke="#EA580C" stroke-width="2.25"/>
+  <line x1="676" y1="1166" x2="676" y2="1178" stroke="#EA580C" stroke-width="2.25"/>
+  <circle cx="676" cy="1166" r="4" fill="#EA580C"/>
+  <text x="700" y="1170" font-size="12" fill="#1F2937">dot = junction (connected)</text>
+  <line x1="660" y1="1188" x2="671" y2="1188" stroke="#7C2D12" stroke-width="3"/>
+  <line x1="675" y1="1188" x2="686" y2="1188" stroke="#DC2626" stroke-width="3"/>
+  <line x1="690" y1="1188" x2="701" y2="1188" stroke="#F97316" stroke-width="3"/>
+  <text x="710" y="1192" font-size="12" fill="#1F2937">servo lead: brown G · red V+ · orange S</text>
+  <rect x="60" y="1202" width="22" height="13" rx="3" fill="#DDD6FE" stroke="#6D28D9" stroke-width="1.5"/>
+  <text x="90" y="1213" font-size="12" fill="#1F2937">Compute</text>
+  <rect x="190" y="1202" width="22" height="13" rx="3" fill="#BBF7D0" stroke="#15803D" stroke-width="1.5"/>
+  <text x="220" y="1213" font-size="12" fill="#1F2937">Sensor</text>
+  <rect x="310" y="1202" width="22" height="13" rx="3" fill="#FDE68A" stroke="#B45309" stroke-width="1.5"/>
+  <text x="340" y="1213" font-size="12" fill="#1F2937">Actuator (servo)</text>
+  <rect x="470" y="1202" width="22" height="13" rx="3" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.5"/>
+  <text x="500" y="1213" font-size="12" fill="#1F2937">Power source</text>
+  <rect x="620" y="1202" width="22" height="13" rx="3" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="650" y="1213" font-size="12" fill="#1F2937">Warning</text>
+  <rect x="750" y="1202" width="22" height="13" rx="3" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="780" y="1213" font-size="12" fill="#1F2937">Spare / unused</text>
+
+  <!-- ================= Pin table ================= -->
+  <text x="1020" y="966" font-size="13" font-weight="bold" fill="#111827">Pin table — micro:bit V2 via robot:bit (7 used, 1 spare)</text>
+  <rect x="1020" y="976" width="540" height="28" fill="#F3F4F6"/>
+  <g fill="#F9FAFB">
+    <rect x="1020" y="1026" width="540" height="22"/>
+    <rect x="1020" y="1070" width="540" height="22"/>
+    <rect x="1020" y="1114" width="540" height="22"/>
+    <rect x="1020" y="1158" width="540" height="22"/>
+    <rect x="1020" y="1202" width="540" height="22"/>
+  </g>
+  <rect x="1020" y="1092" width="540" height="22" fill="#F3F4F6"/>
+  <g stroke="#E5E7EB" stroke-width="1">
+    <line x1="1020" y1="1026" x2="1560" y2="1026"/><line x1="1020" y1="1048" x2="1560" y2="1048"/>
+    <line x1="1020" y1="1070" x2="1560" y2="1070"/><line x1="1020" y1="1092" x2="1560" y2="1092"/>
+    <line x1="1020" y1="1114" x2="1560" y2="1114"/><line x1="1020" y1="1136" x2="1560" y2="1136"/>
+    <line x1="1020" y1="1158" x2="1560" y2="1158"/><line x1="1020" y1="1180" x2="1560" y2="1180"/>
+    <line x1="1020" y1="1202" x2="1560" y2="1202"/>
+  </g>
+  <g stroke="#D1D5DB" stroke-width="1">
+    <line x1="1020" y1="1004" x2="1560" y2="1004"/>
+    <line x1="1084" y1="976" x2="1084" y2="1224"/>
+    <line x1="1244" y1="976" x2="1244" y2="1224"/>
+    <line x1="1328" y1="976" x2="1328" y2="1224"/>
+  </g>
+  <rect x="1020" y="976" width="540" height="248" fill="none" stroke="#9CA3AF" stroke-width="1.2"/>
+  <g font-size="12" font-weight="bold" fill="#1F2937">
+    <text x="1028" y="995">Pin</text><text x="1092" y="995">Function</text><text x="1252" y="995">Dir</text><text x="1336" y="995">Notes</text>
+  </g>
+  <g font-size="12" font-weight="bold" fill="#1F2937">
+    <text x="1028" y="1019">P0</text><text x="1028" y="1041">P1</text><text x="1028" y="1063">P2</text>
+    <text x="1028" y="1085">P8</text><text x="1028" y="1107" fill="#9CA3AF">P12</text><text x="1028" y="1129">P13</text>
+    <text x="1028" y="1151">P14</text><text x="1028" y="1173">P15</text><text x="1028" y="1195">P16</text>
+    <text x="1028" y="1217">P19/P20</text>
+  </g>
+  <g class="cell">
+    <text x="1092" y="1019">Hatch switch</text><text x="1252" y="1019">DIN, pull-up</text>
+    <text x="1092" y="1041">HX711 PD_SCK</text><text x="1252" y="1041">DOUT</text>
+    <text x="1092" y="1063">HX711 DOUT</text><text x="1252" y="1063">DIN</text>
+    <text x="1092" y="1085">RC522 SDA/NSS (CS)</text><text x="1252" y="1085">DOUT</text>
+    <text x="1092" y="1107" fill="#6B7280">SPARE</text><text x="1252" y="1107" fill="#6B7280">—</text>
+    <text x="1092" y="1129">RC522 SCK</text><text x="1252" y="1129">SPI</text>
+    <text x="1092" y="1151">RC522 MISO</text><text x="1252" y="1151">SPI</text>
+    <text x="1092" y="1173">RC522 MOSI</text><text x="1252" y="1173">SPI</text>
+    <text x="1092" y="1195">4× RGB LEDs (onboard)</text><text x="1252" y="1195">DOUT</text>
+    <text x="1092" y="1217">I2C SCL/SDA (onboard)</text><text x="1252" y="1217">I2C</text>
+  </g>
+  <g class="note">
+    <text x="1336" y="1019">Buzzer jumper removed · LOW = closed</text>
+    <text x="1336" y="1041" fill="#B91C1C">Idle LOW; HIGH ≤ 50 µs per pulse</text>
+    <text x="1336" y="1063">LOW = data ready</text>
+    <text x="1336" y="1085">Idle HIGH</text>
+    <text x="1336" y="1107" fill="#6B7280">Accessibility pin — verify before use</text>
+    <text x="1336" y="1129">1 MHz, mode 0</text>
+    <text x="1336" y="1151">Data from RC522</text>
+    <text x="1336" y="1173">Data to RC522</text>
+    <text x="1336" y="1195">Status lights (WS2812)</text>
+    <text x="1336" y="1217">PCA9685 @0x40</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="1560" y="1254" font-size="11" fill="#9CA3AF" text-anchor="end">Smart Med Station · Hardware design v2.1 · 2026-10-07</text>
+</svg>

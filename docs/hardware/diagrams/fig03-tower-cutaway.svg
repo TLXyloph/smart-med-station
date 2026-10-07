@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 1030" width="1600" height="1030" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<defs>
+  <style>
+    .t{font-size:14px;fill:#1F2937}
+    .tb{font-size:14px;font-weight:bold;fill:#1F2937}
+    .s{font-size:12px;fill:#4B5563}
+    .xs{font-size:11px;fill:#4B5563}
+    .vl{font-size:13px;font-weight:bold;fill:#374151;letter-spacing:0.5px}
+    .ld{stroke:#6B7280;stroke-width:0.9;fill:none}
+    .st{fill:#E5E7EB;stroke:#374151;stroke-width:1.4}
+    .mv{fill:#BFDBFE;stroke:#1D4ED8;stroke-width:1.4}
+    .ac{fill:#FDE68A;stroke:#B45309;stroke-width:1.4}
+    .se{fill:#BBF7D0;stroke:#15803D;stroke-width:1.4}
+    .cp{fill:#DDD6FE;stroke:#6D28D9;stroke-width:1.5}
+    .sig{stroke:#2563EB;stroke-width:1.6;fill:none}
+    .hid{fill:none;stroke:#374151;stroke-width:1;stroke-dasharray:4,3}
+  </style>
+  <marker id="dot" viewBox="0 0 6 6" refX="3" refY="3" markerWidth="6" markerHeight="6" markerUnits="userSpaceOnUse"><circle cx="3" cy="3" r="2.4" fill="#6B7280"/></marker>
+  <marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 Z" fill="#1D4ED8"/></marker>
+  <marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 Z" fill="#4B5563"/></marker>
+  <marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 Z" fill="#374151"/></marker>
+  <marker id="rE" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#DC2626"/></marker>
+  <marker id="rS" viewBox="0 0 10 10" refX="0" refY="5" markerWidth="6" markerHeight="6" markerUnits="userSpaceOnUse" orient="auto"><path d="M10,0 L0,5 L10,10 Z" fill="#DC2626"/></marker>
+  <!-- dummy vial seen side-on (axis radial = in the page), red band = cap; drawn at 2.4 px/mm -->
+  <symbol id="vs" overflow="visible">
+    <rect x="-42" y="-19.2" width="84" height="38.4" rx="5" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.5"/>
+    <rect x="26.6" y="-19.2" width="15.4" height="38.4" rx="4" fill="#FCA5A5" stroke="#6B7280" stroke-width="1.2"/>
+  </symbol>
+  <g id="ledrow"><circle cx="0" cy="0" r="1.8" fill="#6D28D9"/><circle cx="9" cy="0" r="1.8" fill="#6D28D9"/><circle cx="18" cy="0" r="1.8" fill="#6D28D9"/><circle cx="27" cy="0" r="1.8" fill="#6D28D9"/><circle cx="36" cy="0" r="1.8" fill="#6D28D9"/></g>
+</defs>
+
+<text x="40" y="48" font-size="24" font-weight="bold" fill="#111827">Fig 3 — Med Tower (side cutaway)</text>
+<text x="40" y="72" font-size="14" fill="#4B5563">One locked tower holds every drug: a turret of vial columns turns over a flush floor with one dosing disc, and the whole mechanism sits on one load cell.</text>
+<text x="300" y="106" class="vl">SIDE CUTAWAY A–A — FRONT OF STATION ON RIGHT →  (NOT TO SCALE)</text>
+<text x="300" y="132" font-size="14" font-weight="bold" fill="#DC2626">MED TOWER — whole housing is the locked safe (CS-1)</text>
+<rect x="292" y="142" width="726.4" height="520" fill="none" stroke="#DC2626" stroke-width="2" stroke-dasharray="9,5"/>
+<rect x="300.0" y="150.0" width="710.4" height="504.0" class="st" stroke-width="2"/>
+<rect x="312.0" y="162.0" width="686.4" height="480.0" fill="#F8FAFC" stroke="#374151" stroke-width="1.2"/>
+<rect x="756.0" y="150.0" width="96.0" height="13.2" fill="#F8FAFC"/>
+<polygon points="997.0,564.2 1011.8,573.5 1011.8,522.7 997.0,513.4" fill="#F8FAFC"/>
+<rect x="297.6" y="334.8" width="16.8" height="36.0" fill="#9CA3AF" stroke="#374151" stroke-width="1" rx="2"/>
+<rect x="319.2" y="190.8" width="88.8" height="199.2" class="cp" rx="5"/>
+<rect x="326.4" y="200.4" width="74.4" height="86.4" rx="4" fill="#C4B5FD" stroke="#6D28D9" stroke-width="1.2"/>
+<use xlink:href="#ledrow" x="345.6" y="214"/>
+<use xlink:href="#ledrow" x="345.6" y="223"/>
+<use xlink:href="#ledrow" x="345.6" y="232"/>
+<use xlink:href="#ledrow" x="345.6" y="241"/>
+<use xlink:href="#ledrow" x="345.6" y="250"/>
+<text x="363.6" y="280" text-anchor="middle" font-size="11" fill="#4C1D95">micro:bit V2</text>
+<text x="363.6" y="330" text-anchor="middle" font-size="12" fill="#4C1D95">robot:bit V2</text>
+<text x="363.6" y="360" text-anchor="middle" font-size="11" fill="#4C1D95">S1–S8</text>
+<rect x="330" y="368" width="6" height="6" fill="#374151"/>
+<rect x="339" y="368" width="6" height="6" fill="#374151"/>
+<rect x="348" y="368" width="6" height="6" fill="#374151"/>
+<rect x="357" y="368" width="6" height="6" fill="#374151"/>
+<rect x="366" y="368" width="6" height="6" fill="#374151"/>
+<rect x="375" y="368" width="6" height="6" fill="#374151"/>
+<rect x="384" y="368" width="6" height="6" fill="#374151"/>
+<rect x="393" y="368" width="6" height="6" fill="#374151"/>
+<rect x="319.2" y="522.0" width="76.8" height="48.0" class="se" rx="3"/>
+<text x="357.6" y="550" text-anchor="middle" font-size="12" font-weight="bold" fill="#14532D">HX711</text>
+<polyline points="492.0,609.6 384.0,609.6 384.0,570.0" fill="none" stroke="#DC2626" stroke-width="1.2"/>
+<polyline points="492.0,613.2 374.4,613.2 374.4,570.0" fill="none" stroke="#111827" stroke-width="1.2"/>
+<polyline points="492.0,616.8 364.8,616.8 364.8,570.0" fill="none" stroke="#16A34A" stroke-width="1.2"/>
+<polyline points="492.0,620.4 355.2,620.4 355.2,570.0" fill="none" stroke="#9CA3AF" stroke-width="1.2"/>
+<polyline points="336.0,522.0 336.0,390.0" class="sig" />
+<polyline points="345.6,522.0 345.6,390.0" class="sig" />
+<line x1="319.2" y1="354.0" x2="256" y2="354.0" stroke="#4B5563" stroke-width="3" marker-end="url(#arrG)"/>
+<polyline points="384.0,190.8 384.0,164.4 777.6,164.4 777.6,176.4 787.2,176.4" class="sig" />
+<polyline points="396.0,190.8 396.0,168.0 720.0,168.0 720.0,177.6 729.6,177.6" class="sig" />
+<polyline points="324.0,390.0 324.0,636.0 997.0,636.0 997.0,594.0" class="sig" />
+<path d="M408.0,368.4 L434.4,368.4 L434.4,393 C434.4,409 446.4,412 446.4,403 C446.4,395 432.4,397 434.4,415 L434.4,517.2 L549.6,517.2" class="sig"/>
+<path d="M408.0,382.8 L422.4,382.8 L422.4,393 C422.4,409 410.4,412 410.4,403 C410.4,395 424.4,397 422.4,415 L422.4,562.8 L840.0,562.8 L840.0,510.0 L849.4,510.0" class="sig"/>
+<rect x="492.0" y="630.0" width="28.8" height="12.0" class="st" />
+<rect x="492.0" y="599.5" width="192.0" height="30.5" class="se" />
+<path d="M580.8,608.8 L597.6,608.8 A6,6 0 0 1 597.6,620.8 L580.8,620.8 A6,6 0 0 1 580.8,608.8 Z" fill="#FFFFFF" stroke="#15803D" stroke-width="1.2"/>
+<rect x="655.2" y="587.5" width="28.8" height="12.0" class="st" />
+<path d="M501.6,599.5 V654.0 M511.2,599.5 V654.0 M662.4,575.5 V630.0 M676.8,575.5 V630.0" class="hid"/>
+<rect x="456.0" y="575.5" width="283.2" height="12.0" class="st" />
+<rect x="465.6" y="430.8" width="14.4" height="144.7" class="st" />
+<rect x="724.8" y="430.8" width="14.4" height="144.7" class="st" />
+<rect x="564.0" y="534.0" width="24.0" height="41.5" class="st" />
+<rect x="456.0" y="423.6" width="177.6" height="7.2" class="st" />
+<rect x="710.4" y="423.6" width="38.9" height="7.2" class="st" />
+<rect x="744.0" y="430.8" width="5.3" height="40.8" class="st" />
+<rect x="744.0" y="464.4" width="112.8" height="7.2" class="st" />
+<rect x="871.2" y="464.4" width="7.2" height="7.2" class="st" />
+<rect x="964.8" y="464.4" width="21.6" height="7.2" class="st" />
+<rect x="978.7" y="423.6" width="7.7" height="40.8" class="st" />
+<polygon points="750.0,464.4 874.8,464.4 874.8,427.2 871.2,423.6 750.0,423.6" class="mv" />
+<polygon points="966.0,464.4 978.0,464.4 978.0,423.6 969.6,423.6 966.0,427.2" class="mv" />
+<rect x="757.2" y="424.6" width="93.6" height="38.9" fill="none" stroke="#1D4ED8" stroke-width="1.3" stroke-dasharray="5,3"/>
+<rect x="860.4" y="464.4" width="7.2" height="19.2" fill="#6B7280"/>
+<line x1="864.0" y1="414.0" x2="864.0" y2="550.8" stroke="#1D4ED8" stroke-width="0.9" stroke-dasharray="10,3,2,3"/>
+<rect x="849.4" y="483.6" width="29.3" height="55.2" class="ac" />
+<text x="864.0" y="517.2" text-anchor="middle" font-size="11" font-weight="bold" fill="#78350F">S2</text>
+<line x1="456.0" y1="423.0" x2="633.6" y2="423.0" stroke="#0EA5E9" stroke-width="1.6"/>
+<line x1="710.4" y1="423.0" x2="871.2" y2="423.0" stroke="#0EA5E9" stroke-width="1.6"/>
+<line x1="969.6" y1="423.0" x2="986.4" y2="423.0" stroke="#0EA5E9" stroke-width="1.6"/>
+<rect x="662.4" y="222.0" width="19.2" height="353.5" fill="#D1D5DB" stroke="#374151" stroke-width="1.2"/>
+<rect x="652.8" y="567.6" width="38.4" height="7.9" fill="#9CA3AF" stroke="#374151" stroke-width="1.2"/>
+<rect x="655.2" y="474.0" width="33.6" height="12.0" fill="#9CA3AF" stroke="#374151" stroke-width="1.2"/>
+<rect x="645.6" y="457.2" width="16.8" height="16.8" fill="#F3F4F6" stroke="#374151" stroke-width="1.2"/>
+<path d="M645.6,457.2 L662.4,474.0 M645.6,474.0 L662.4,457.2" stroke="#374151" stroke-width="0.9"/>
+<rect x="681.6" y="457.2" width="16.8" height="16.8" fill="#F3F4F6" stroke="#374151" stroke-width="1.2"/>
+<path d="M681.6,457.2 L698.4,474.0 M681.6,474.0 L698.4,457.2" stroke="#374151" stroke-width="0.9"/>
+<rect x="560.4" y="454.8" width="7.2" height="24.0" fill="#6B7280"/>
+<rect x="537.6" y="488.4" width="76.8" height="7.2" class="ac" />
+<rect x="549.6" y="478.8" width="54.0" height="55.2" class="ac" />
+<text x="576.6" y="514.8" text-anchor="middle" font-size="12" font-weight="bold" fill="#78350F">S1</text>
+<rect x="489.0" y="440.4" width="150.0" height="14.4" class="mv" />
+<text x="556.8" y="451.9" text-anchor="middle" font-size="11" font-weight="bold" fill="#1E3A8A">48T</text>
+<rect x="758.4" y="207.6" width="91.2" height="215.5" fill="#EEF2FF"/>
+<rect x="494.4" y="207.6" width="91.2" height="215.5" fill="#EEF2FF"/>
+<rect x="753.6" y="207.6" width="4.8" height="213.6" class="mv" />
+<rect x="849.6" y="207.6" width="4.8" height="213.6" class="mv" />
+<rect x="585.6" y="207.6" width="4.8" height="213.6" class="mv" />
+<rect x="489.6" y="207.6" width="4.8" height="213.6" class="mv" />
+<rect x="854.4" y="402.0" width="9.6" height="19.2" class="mv" />
+<rect x="480.0" y="402.0" width="9.6" height="19.2" class="mv" />
+<rect x="638.4" y="207.6" width="7.2" height="266.4" class="mv" />
+<rect x="698.4" y="207.6" width="7.2" height="266.4" class="mv" />
+<rect x="633.0" y="440.4" width="12.6" height="14.4" class="mv" />
+<rect x="698.4" y="440.4" width="12.6" height="14.4" class="mv" />
+<rect x="590.4" y="207.6" width="163.2" height="9.6" class="mv" />
+<use xlink:href="#vs" x="804.0" y="404.4"/>
+<use xlink:href="#vs" transform="translate(540.0,404.4) scale(-1,1)"/>
+<use xlink:href="#vs" x="804.0" y="366.0"/>
+<use xlink:href="#vs" transform="translate(540.0,366.0) scale(-1,1)"/>
+<use xlink:href="#vs" x="804.0" y="327.6"/>
+<use xlink:href="#vs" transform="translate(540.0,327.6) scale(-1,1)"/>
+<use xlink:href="#vs" x="804.0" y="289.2"/>
+<use xlink:href="#vs" transform="translate(540.0,289.2) scale(-1,1)"/>
+<use xlink:href="#vs" x="804.0" y="250.8"/>
+<use xlink:href="#vs" transform="translate(540.0,250.8) scale(-1,1)"/>
+<rect x="770.0" y="219" width="68" height="16" rx="8" fill="#FEE2E2" stroke="#DC2626" stroke-width="1"/>
+<text x="804.0" y="231" text-anchor="middle" font-size="11" font-weight="bold" fill="#B91C1C">CS · col 6</text>
+<rect x="499.0" y="219" width="82" height="16" rx="8" fill="#F3F4F6" stroke="#6B7280" stroke-width="1"/>
+<text x="540.0" y="231" text-anchor="middle" font-size="11" font-weight="bold" fill="#374151">col 2 · regular</text>
+<rect x="756.0" y="150.0" width="96.0" height="12.0" class="mv" />
+<rect x="842.4" y="162.0" width="9.6" height="21.6" class="mv" />
+<rect x="847.2" y="170.4" width="4.8" height="9.6" fill="#F8FAFC" stroke="#1D4ED8" stroke-width="1"/>
+<circle cx="756.0" cy="156.0" r="3" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="1.5"/>
+<rect x="787.2" y="164.4" width="52.8" height="25.2" fill="#FDE68A" fill-opacity="0.35" stroke="#B45309" stroke-width="1.3" stroke-dasharray="4,3"/>
+<text x="813.6" y="182.4" text-anchor="middle" font-size="11" font-weight="bold" fill="#92400E">S3</text>
+<rect x="848.4" y="171.6" width="20.4" height="7.2" class="mv" />
+<rect x="861.6" y="178.8" width="4.8" height="8.4" class="mv" />
+<path d="M868.8,175.2 l2.4,-3.5 l2.4,7 l2.4,-7 l2.4,7 l2.4,-7 l2.4,7 l2.4,-7 l1.2,3.5" fill="none" stroke="#B45309" stroke-width="1.3"/>
+<rect x="888.0" y="162.0" width="7.2" height="26.4" class="st" />
+<path d="M832.8,186.0 L861.6,185.0" stroke="#B45309" stroke-width="2.4" stroke-linecap="round"/>
+<rect x="861.6" y="150.0" width="6.0" height="12.0" fill="#FFFFFF" stroke="#374151" stroke-width="1" stroke-dasharray="3,2"/>
+<rect x="729.6" y="169.2" width="21.6" height="16.8" class="se" rx="1.5"/>
+<line x1="746.4" y1="170.4" x2="763.2" y2="163.0" stroke="#15803D" stroke-width="1.5"/>
+<circle cx="763.2" cy="163.0" r="2" fill="#15803D"/>
+<rect x="992.2" y="510.0" width="6.0" height="84.0" fill="#BBF7D0" fill-opacity="0.5" stroke="#15803D" stroke-width="1.2" stroke-dasharray="4,2"/>
+<polygon points="885.6,493.2 1024.8,580.2 1024.8,586.2 885.6,499.2" class="st" />
+<polygon points="1024.8,580.2 1034.4,603.6 1028.6,605.5 1019.0,583.8" class="st" />
+<polygon points="885.6,493.2 890.4,493.2 890.4,483.6 885.6,483.6" class="st" />
+<polygon points="991.2,505.2 1036.8,533.7 1036.8,539.7 991.2,511.2" class="st" />
+<rect x="1036.8" y="533.7" width="6.0" height="51.9" class="st" />
+<rect x="1010.4" y="648.0" width="96.0" height="6.0" class="st" />
+<rect x="1100.4" y="639.6" width="6.0" height="14.4" class="st" />
+<rect x="1042.8" y="585.6" width="63.6" height="6.0" class="st" />
+<rect x="1100.4" y="585.6" width="6.0" height="9.6" class="st" />
+<rect x="1100.6" y="595.7" width="5.8" height="42.5" class="mv" />
+<circle cx="1103.5" cy="593.5" r="3" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="1.5"/>
+<path d="M1103.5,638.2 A44,44 0 0 0 1123.2,620.4" fill="none" stroke="#1D4ED8" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#arrB)"/>
+<polygon points="470.4,193.2 873.6,193.2 873.6,418.8 990.0,418.8 990.0,475.2 883.2,475.2 883.2,546.0 746.4,546.0 746.4,592.8 450.0,592.8 450.0,418.8 470.4,418.8" fill="none" stroke="#1D4ED8" stroke-width="1.7" stroke-dasharray="8,4"/>
+<line x1="888.0" y1="472.1" x2="888.0" y2="483.1" stroke="#DC2626" stroke-width="1.5" marker-start="url(#rS)" marker-end="url(#rE)"/>
+<line x1="850.8" y1="206.6" x2="850.8" y2="184.6" stroke="#DC2626" stroke-width="1.5" marker-start="url(#rS)" marker-end="url(#rE)"/>
+<line x1="987.1" y1="450.0" x2="997.4" y2="450.0" stroke="#DC2626" stroke-width="1.5" marker-start="url(#rS)" marker-end="url(#rE)"/>
+<text x="847.2" y="206" text-anchor="end" font-size="11" font-weight="bold" fill="#DC2626">≥2 mm</text>
+<line x1="972.0" y1="553.2" x2="926.4" y2="553.2" stroke="#6B7280" stroke-width="1" stroke-dasharray="4,3"/>
+<path d="M938.4,553.2 A33.6,33.6 0 0 1 943.5,535.4" fill="none" stroke="#6B7280" stroke-width="1"/>
+<text x="925.2" y="550.2" text-anchor="end" font-size="12" fill="#1F2937">≥ 30°</text>
+<path d="M920.4,445.2 L920.4,492.3 L1022.4,556.1 Q1041.6,570.0 1058.4,625.2" fill="none" stroke="#1D4ED8" stroke-width="1.6" stroke-dasharray="6,4" marker-end="url(#arrB)"/>
+<use xlink:href="#vs" transform="translate(960.6,517.4) rotate(32)"/>
+<text x="720.8" y="178.3" class="s" text-anchor="end" >hatch switch (P0)</text>
+<line x1="722.8" y1="175.7" x2="729.6" y2="175.7" class="ld" marker-end="url(#dot)"/>
+<text x="752.4" y="488.4" class="xs" font-weight="bold">pocket at LOAD</text>
+<text x="752.4" y="501.4" class="xs" >(ghost, dashed)</text>
+<line x1="796.8" y1="482.4" x2="796.8" y2="457.2" class="ld" marker-end="url(#dot)"/>
+<text x="984.0" y="618.0" class="xs" text-anchor="end" >RC522 tap pad, beside the tray</text>
+<line x1="985.2" y1="612.0" x2="992.2" y2="589.2" class="ld" marker-end="url(#dot)"/>
+<text x="284" y="212" class="tb" text-anchor="end" >micro:bit V2 + robot:bit</text>
+<text x="284" y="228" class="s" text-anchor="end" >on the housing wall, NOT weighed</text>
+<line x1="289" y1="216" x2="330" y2="222" class="ld" marker-end="url(#dot)"/>
+<text x="284" y="258" class="t" text-anchor="end" >micro:bit accelerometer</text>
+<text x="284" y="274" class="s" text-anchor="end" >= tamper / shock sensor</text>
+<line x1="289" y1="254" x2="332" y2="250" class="ld" marker-end="url(#dot)"/>
+<text x="284" y="302" class="t" text-anchor="end" >temperature sensor</text>
+<text x="284" y="318" class="s" text-anchor="end" >= storage temp log</text>
+<line x1="289" y1="298" x2="332" y2="276" class="ld" marker-end="url(#dot)"/>
+<text x="244" y="359.0" class="t" text-anchor="end" >USB → Orange Pi</text>
+<text x="244" y="375.0" class="s" text-anchor="end" >(data + logic power)</text>
+<text x="284" y="406" class="t" text-anchor="end" >servo cable slack loops</text>
+<line x1="289" y1="402" x2="445" y2="404" class="ld" marker-end="url(#dot)"/>
+<line x1="289" y1="402" x2="411" y2="405" class="ld" marker-end="url(#dot)"/>
+<text x="284" y="430" class="t" text-anchor="end" >fixed floor plate, slick top</text>
+<line x1="289" y1="426" x2="462" y2="427" class="ld" marker-end="url(#dot)"/>
+<text x="284" y="454" class="t" text-anchor="end" >48T on S1 → 24T on hub (2:1)</text>
+<line x1="289" y1="450" x2="500" y2="447" class="ld" marker-end="url(#dot)"/>
+<text x="284" y="478" class="t" text-anchor="end" >608 bearing on fixed M8 shaft</text>
+<line x1="289" y1="474" x2="652" y2="466" class="ld" marker-end="url(#dot)"/>
+<text x="284" y="502" class="t" text-anchor="end" >S1 MG90S turret drive (rear)</text>
+<text x="284" y="518" class="s" text-anchor="end" >positions the turret; no detent (Fig 5)</text>
+<line x1="289" y1="498" x2="560" y2="505" class="ld" marker-end="url(#dot)"/>
+<text x="284" y="556" class="t" text-anchor="end" >HX711 (on wall)</text>
+<text x="284" y="572" class="s" text-anchor="end" >DOUT → P2, PD_SCK → P1</text>
+<line x1="289" y1="552" x2="319" y2="552" class="ld" marker-end="url(#dot)"/>
+<text x="284" y="606" class="t" text-anchor="end" >1 kg bar load cell, Z-mount</text>
+<text x="284" y="622" class="s" text-anchor="end" >fixed end: 5 mm spacer on floor</text>
+<text x="284" y="638" class="s" text-anchor="end" >free end: 5 mm spacer → platform</text>
+<line x1="289" y1="602" x2="520" y2="610" class="ld" marker-end="url(#dot)"/>
+<text x="1124" y="104" class="tb" >RESTOCK HATCH — one column wide (20 × 40 mm)</text>
+<text x="1124" y="121" class="s" >in the fixed top cover, directly above the front column:</text>
+<text x="1124" y="136" class="s" >only that column can be reached (CS column: 2FA + witness)</text>
+<line x1="1118" y1="100" x2="804.0" y2="156" class="ld" marker-end="url(#dot)"/>
+<text x="1124" y="160" class="t" >key override hole → ! FORCED (logged)</text>
+<line x1="1118" y1="156" x2="864.6" y2="155" class="ld" marker-end="url(#dot)"/>
+<text x="1124" y="190" class="t" >latch S3 (MG90S) + spring bolt, fail-secure</text>
+<text x="1124" y="206" class="s" >S3 drawn dashed: it sits beside the opening (Fig 6)</text>
+<line x1="1118" y1="186" x2="864.0" y2="183.6" class="ld" marker-end="url(#dot)"/>
+<text x="1124" y="246" class="t" >selected column k is at the FRONT</text>
+<text x="1124" y="262" class="s" >here col 6 · CS (e.g., midazolam 12 g); 5 layers</text>
+<line x1="1118" y1="242" x2="840.0" y2="289.2" class="ld" marker-end="url(#dot)"/>
+<text x="1124" y="300" font-size="14" font-weight="bold" fill="#1D4ED8">WEIGHED MODULE</text>
+<text x="1124" y="316" class="s" >turret + shaft + floor + dosing disc + S1 + S2</text>
+<text x="1124" y="331" class="s" >+ gears, all on ONE load cell</text>
+<line x1="1118" y1="304" x2="873.6" y2="304" class="ld" marker-end="url(#dot)"/>
+<text x="1124" y="372" class="tb" >DOSING DISC S2 (MG90S) — Ø95 × 17, axis at R80</text>
+<text x="1124" y="388" class="s" >top FLUSH with the floor: columns cross with no dip</text>
+<text x="1124" y="403" class="s" >one pocket, shown at REST (≈R103.5, outside the turret)</text>
+<text x="1124" y="418" class="s" >over the EXIT HOLE in the bottom plate (weighed)</text>
+<line x1="1118" y1="376" x2="973.2" y2="442.8" class="ld" marker-end="url(#dot)"/>
+<line x1="1118" y1="414" x2="936.0" y2="450.0" class="ld" marker-end="url(#dot)"/>
+<text x="1124" y="516" class="tb" >EXIT CHUTE — fixed, not weighed (≥ 30°)</text>
+<text x="1124" y="532" class="s" >the vial falls through the exit hole onto it</text>
+<line x1="1118" y1="512" x2="1004.4" y2="512.4" class="ld" marker-end="url(#dot)"/>
+<text x="1124" y="600" class="tb" >SHARED PICKUP TRAY</text>
+<text x="1124" y="616" class="s" >the flap is lifted by the medic and is</text>
+<text x="1124" y="631" class="s" >never in the vial path</text>
+<line x1="1118" y1="604" x2="1106.4" y2="618.0" class="ld" marker-end="url(#dot)"/>
+<text x="40" y="700" class="vl">FRONT VIEW (INSET)</text>
+<rect x="54" y="722" width="183" height="201" fill="none" stroke="#DC2626" stroke-width="2" stroke-dasharray="9,5"/>
+<rect x="60" y="728" width="171" height="189" class="st" stroke-width="2"/>
+<rect x="136" y="724.5" width="18" height="4" class="mv"/>
+<rect x="136" y="729" width="18" height="9" fill="none" stroke="#1D4ED8" stroke-width="1" stroke-dasharray="3,2"/>
+<rect x="118" y="893" width="54" height="24" class="st"/>
+<rect x="122" y="897" width="46" height="17" class="mv"/>
+<line x1="122" y1="897" x2="168" y2="897" stroke="#1D4ED8" stroke-width="2.5"/>
+<rect x="180" y="868" width="38" height="38" rx="5" fill="#F0FDF4" stroke="#15803D" stroke-width="1.2" stroke-dasharray="4,2"/>
+<text x="199" y="884" font-size="11" font-weight="bold" fill="#166534" text-anchor="middle">TAP</text>
+<text x="199" y="897" font-size="11" font-weight="bold" fill="#166534" text-anchor="middle">HERE</text>
+<text x="246" y="716" class="s">restock hatch (on top)</text>
+<line x1="242" y1="712" x2="148" y2="726" class="ld" marker-end="url(#dot)"/>
+<text x="246" y="884" class="s">TAP HERE pad</text>
+<text x="246" y="899" class="s">(RC522 behind)</text>
+<line x1="242" y1="886" x2="218" y2="886" class="ld" marker-end="url(#dot)"/>
+<text x="146" y="944" class="s" text-anchor="middle">shared tray; the medic lifts the flap</text>
+<line x1="146" y1="932" x2="146" y2="916" class="ld" marker-end="url(#dot)"/>
+<text x="410" y="700" class="vl">TOP VIEW (KEY)</text>
+<rect x="495.0" y="708.0" width="160.0" height="236.8" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-dasharray="7,4"/>
+<rect x="499.0" y="712.0" width="152.0" height="228.8" fill="#FFFFFF" stroke="#374151" stroke-width="1.5"/>
+<rect x="551" y="944.8" width="48" height="28" class="st"/>
+<rect x="555" y="967.8" width="40" height="4" class="mv"/>
+<circle cx="575" cy="832" r="64.0" fill="#EFF6FF" stroke="#1D4ED8" stroke-width="1.5"/>
+<circle cx="575" cy="896.0" r="38.0" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.4"/>
+<g transform="translate(575,832) rotate(0)"><rect x="-8.8" y="27.2" width="17.6" height="33.6" fill="#FEE2E2" stroke="#DC2626" stroke-width="2.2"/></g>
+<text x="575.0" y="880.0" font-size="11" font-weight="bold" fill="#B91C1C" text-anchor="middle">6</text>
+<g transform="translate(575,832) rotate(45)"><rect x="-8.8" y="27.2" width="17.6" height="33.6" fill="#FEE2E2" stroke="#DC2626" stroke-width="1.3"/></g>
+<text x="543.9" y="867.1" font-size="11" font-weight="bold" fill="#B91C1C" text-anchor="middle">7</text>
+<g transform="translate(575,832) rotate(90)"><rect x="-8.8" y="27.2" width="17.6" height="33.6" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="1.2"/></g>
+<text x="531.0" y="836.0" font-size="11" font-weight="bold" fill="#1E3A8A" text-anchor="middle">0</text>
+<g transform="translate(575,832) rotate(135)"><rect x="-8.8" y="27.2" width="17.6" height="33.6" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="1.2"/></g>
+<text x="543.9" y="804.9" font-size="11" font-weight="bold" fill="#1E3A8A" text-anchor="middle">1</text>
+<g transform="translate(575,832) rotate(180)"><rect x="-8.8" y="27.2" width="17.6" height="33.6" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="1.2"/></g>
+<text x="575.0" y="792.0" font-size="11" font-weight="bold" fill="#1E3A8A" text-anchor="middle">2</text>
+<g transform="translate(575,832) rotate(225)"><rect x="-8.8" y="27.2" width="17.6" height="33.6" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="1.2"/></g>
+<text x="606.1" y="804.9" font-size="11" font-weight="bold" fill="#1E3A8A" text-anchor="middle">3</text>
+<g transform="translate(575,832) rotate(270)"><rect x="-8.8" y="27.2" width="17.6" height="33.6" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="1.2"/></g>
+<text x="619.0" y="836.0" font-size="11" font-weight="bold" fill="#1E3A8A" text-anchor="middle">4</text>
+<g transform="translate(575,832) rotate(315)"><rect x="-8.8" y="27.2" width="17.6" height="33.6" fill="#FEE2E2" stroke="#DC2626" stroke-width="1.3"/></g>
+<text x="606.1" y="867.1" font-size="11" font-weight="bold" fill="#B91C1C" text-anchor="middle">5</text>
+<circle cx="575" cy="832" r="11.200000000000001" fill="#BFDBFE" stroke="#1D4ED8" stroke-width="1.2"/>
+<circle cx="575" cy="832" r="3.2" fill="#9CA3AF" stroke="#374151" stroke-width="1"/>
+<circle cx="575" cy="796.0" r="24.0" fill="none" stroke="#1D4ED8" stroke-width="1.1" stroke-dasharray="4,3"/>
+<g transform="translate(575,896.0)"><rect x="-7.6000000000000005" y="-35.6" width="15.200000000000001" height="31.200000000000003" fill="none" stroke="#1D4ED8" stroke-width="1.2" stroke-dasharray="3,2"/></g>
+<g transform="translate(575,896.0) rotate(160)"><rect x="-7.6000000000000005" y="-35.6" width="15.200000000000001" height="31.200000000000003" fill="#FFFFFF" stroke="#1E3A8A" stroke-width="1.6"/></g>
+<path d="M612.5,790.4 A56.0,56.0 0 0 1 630.5,824.2" fill="none" stroke="#1D4ED8" stroke-width="1.5" marker-start="url(#arrB)" marker-end="url(#arrB)"/>
+<path d="M575,704.0 V766.0 M575,942.8 V942.8" stroke="#374151" stroke-width="1" stroke-dasharray="12,3,2,3"/>
+<line x1="575" y1="704.0" x2="589" y2="704.0" stroke="#374151" stroke-width="1.4" marker-end="url(#arrK)"/>
+<text x="570" y="708.0" font-size="11" font-weight="bold" fill="#374151" text-anchor="end">A</text>
+<text x="575" y="988.8" font-size="11" font-weight="bold" fill="#374151" text-anchor="middle">FRONT ▼  (tray)</text>
+<text x="661.0" y="782" class="xs">S1 + 48T</text>
+<text x="661.0" y="795" class="xs">(under floor)</text>
+<line x1="659.0" y1="788" x2="592.6" y2="786.0" class="ld" marker-end="url(#dot)"/>
+<text x="661.0" y="838" class="xs">red = CS</text>
+<text x="661.0" y="851" class="xs">columns</text>
+<text x="661.0" y="884" class="xs">dosing disc:</text>
+<text x="661.0" y="897" class="xs">pocket at REST</text>
+<text x="661.0" y="910" class="xs">over exit hole;</text>
+<text x="661.0" y="923" class="xs">LOAD dashed</text>
+<line x1="659.0" y1="894" x2="591" y2="910.0" class="ld" marker-end="url(#dot)"/>
+<text x="489.0" y="844" class="xs" text-anchor="end">hatch above</text>
+<text x="489.0" y="857" class="xs" text-anchor="end">col 6 (front)</text>
+<line x1="491.0" y1="850" x2="566" y2="876" class="ld" marker-end="url(#dot)"/>
+<line x1="508.0" y1="897.0" x2="508.0" y2="939.8" stroke="#374151" stroke-width="1" marker-start="url(#arrK)" marker-end="url(#arrK)"/>
+<text x="489.0" y="924" class="xs" text-anchor="end">front ≈50 mm</text>
+<text x="489.0" y="937" class="xs" text-anchor="end">past the turret</text>
+<text x="760" y="700" class="vl">LEGEND</text>
+<rect x="760" y="710" width="410" height="196" rx="6" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+<rect x="776" y="723" width="28" height="16" class="st"/>
+<text x="814" y="736" class="s">Printed structure (fixed)</text>
+<rect x="776" y="749" width="28" height="16" class="mv"/>
+<text x="814" y="762" class="s">Moving part</text>
+<rect x="776" y="775" width="28" height="16" class="ac"/>
+<text x="814" y="788" class="s">Actuator (MG90S servo)</text>
+<rect x="776" y="801" width="28" height="16" class="se"/>
+<text x="814" y="814" class="s">Sensor</text>
+<rect x="776" y="827" width="28" height="16" class="cp"/>
+<text x="814" y="840" class="s">Compute</text>
+<use xlink:href="#vs" transform="translate(790,861) scale(0.34)"/>
+<text x="814" y="866" class="s">Dummy vial (red = cap)</text>
+<path d="M776,887 l3.5,-5 l7,10 l7,-10 l7,10 l3.5,-5" fill="none" stroke="#B45309" stroke-width="1.5"/>
+<text x="814" y="892" class="s">Spring</text>
+<line x1="966" y1="731" x2="994" y2="731" stroke="#DC2626" stroke-width="2" stroke-dasharray="6,3"/>
+<text x="1004" y="736" class="s">Safe boundary (CS-1)</text>
+<line x1="966" y1="757" x2="994" y2="757" stroke="#1D4ED8" stroke-width="1.7" stroke-dasharray="6,3"/>
+<text x="1004" y="762" class="s">Weighed module</text>
+<line x1="966" y1="783" x2="994" y2="783" stroke="#2563EB" stroke-width="2"/>
+<text x="1004" y="788" class="s">Digital signal wire</text>
+<line x1="966" y1="809" x2="994" y2="809" stroke="#4B5563" stroke-width="3"/>
+<text x="1004" y="814" class="s">USB cable</text>
+<line x1="966" y1="835" x2="994" y2="835" stroke="#374151" stroke-width="1.3" stroke-dasharray="4,3"/>
+<text x="1004" y="840" class="s">Hidden / beside the section</text>
+<line x1="980" y1="853" x2="980" y2="869" stroke="#DC2626" stroke-width="1.5" marker-start="url(#rS)" marker-end="url(#rE)"/>
+<text x="1004" y="866" class="s">≥ 2 mm clearance</text>
+<line x1="966" y1="887" x2="992" y2="887" stroke="#1D4ED8" stroke-width="1.6" stroke-dasharray="6,4" marker-end="url(#arrB)"/>
+<text x="1004" y="892" class="s">Motion / vial path</text>
+<text x="1200" y="700" class="vl">NOTES</text>
+<text x="1200" y="722" class="s">• Not to scale. Shown at rest: column 6 (CS) is in front; the</text>
+<text x="1210" y="738" class="s">disc's pocket is at REST, empty, outside the turret.</text>
+<text x="1200" y="758" class="s">• The disc top is flush with the floor, so columns cross the</text>
+<text x="1210" y="774" class="s">front position with no dip and no climb (Fig 7).</text>
+<text x="1200" y="794" class="s">• No detent: S1 positions the turret and stays powered</text>
+<text x="1210" y="810" class="s">until the disc is back at REST (Fig 5).</text>
+<text x="1200" y="830" class="s">• The weighed module touches only the load cell; a vial</text>
+<text x="1210" y="846" class="s">leaving down the fixed chute is a one-unit drop.</text>
+<text x="1200" y="866" class="s">• Red markers: ≥ 2 mm to everything fixed (cover, walls,</text>
+<text x="1210" y="882" class="s">chute, hatch parts). Light-blue line = slick floor top.</text>
+<text x="1200" y="902" class="s">• The whole housing is the safe; the one-column hatch is</text>
+<text x="1210" y="918" class="s">the only restock opening.</text>
+<text x="1560" y="1012" font-size="11" fill="#9CA3AF" text-anchor="end">Smart Med Station · Hardware design v2.1 · 2026-10-07</text>
+</svg>

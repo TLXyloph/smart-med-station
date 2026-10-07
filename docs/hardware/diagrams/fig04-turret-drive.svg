@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1600 1000" width="1600" height="1000" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Fig 4 — Turret, dosing disc and 2:1 drive</title>
+<desc>Left: top view of the turret with 8 rectangular columns on a 55 mm radius, column 0 at the front under the restock hatch, the flush 95 mm dosing disc at the front with its pocket at LOAD under column 0 and at REST outside the turret over the exit hole, and the MG90S servo with 48-tooth gear at the rear meshing the 24-tooth hub gear. Right: table and chart mapping columns 0-7 to turret angle, servo angle and pulse.</desc>
+<defs>
+<marker id="endBlue" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1D4ED8"/></marker>
+<marker id="startBlue" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#1D4ED8"/></marker>
+<marker id="endRed" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker>
+<marker id="startRed" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#DC2626"/></marker>
+<marker id="endGray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker>
+<marker id="startGray" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="7" markerHeight="7" markerUnits="userSpaceOnUse" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#6B7280"/></marker>
+<marker id="endGreen" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#15803D"/></marker>
+<marker id="startGreen" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#15803D"/></marker>
+<pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#F3F4F6"/><line x1="0" y1="0" x2="0" y2="6" stroke="#D1D5DB" stroke-width="2"/></pattern>
+<pattern id="slotHatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#FFFFFF"/><line x1="0" y1="0" x2="0" y2="7" stroke="#9CA3AF" stroke-width="1.4"/></pattern>
+</defs>
+<text x="40" y="48" font-size="24" font-weight="bold" fill="#111827">Fig 4 — Turret, dosing disc and 2:1 drive</text>
+<text x="40" y="72" font-size="14" fill="#4B5563">8 vial columns ride on a turret over a fixed floor; S1 turns it 2:1 from the rear and holds the chosen column at the front, where a flush dosing disc (S2) takes one vial.</text>
+<text x="40" y="118" font-size="13" fill="#374151" font-weight="bold">TOP VIEW</text>
+<text x="112" y="118" font-size="12" fill="#4B5563">front at the bottom · top cover removed · dashed = below the floor / under the turret</text>
+<rect x="218.8" y="220.8" width="422.4" height="532.8" rx="10" fill="#E5E7EB" stroke="#374151" stroke-width="1.6"/>
+<g id="dosing-disc">
+<circle cx="430" cy="624" r="114.72" fill="#D1D5DB" stroke="none"/>
+<circle cx="430" cy="624" r="114" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.8"/>
+<polygon points="408.48,642.05 442.95,736.77 492.57,718.71 458.09,623.99" fill="#93C5FD" stroke="#1D4ED8" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="413.09,644.2 445.1,732.16 487.95,716.56 455.94,628.61" fill="url(#slotHatch)" stroke="#374151" stroke-width="1.4" stroke-linejoin="round"/>
+</g>
+<g id="turret">
+<circle cx="430" cy="432" r="192" fill="#BFDBFE" stroke="#1D4ED8" stroke-width="2"/>
+<polygon points="403.6,513.6 403.6,614.4 456.4,614.4 456.4,513.6" fill="#93C5FD" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="408.4,518.4 408.4,609.6 451.6,609.6 451.6,518.4" fill="#F9FAFB" stroke="#1D4ED8" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="410.8,522 410.8,591.6 449.2,591.6 449.2,522" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="414.4,591.6 414.4,606 445.6,606 445.6,591.6" fill="#FCA5A5" stroke="#6B7280" stroke-width="1.1" stroke-linejoin="round"/>
+<polygon points="353.63,471.03 282.36,542.31 319.69,579.64 390.97,508.37" fill="#93C5FD" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="353.63,477.82 289.14,542.31 319.69,572.86 384.18,508.37" fill="#F9FAFB" stroke="#1D4ED8" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="352.78,482.06 303.57,531.28 330.72,558.43 379.94,509.22" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="306.11,533.82 295.93,544.01 317.99,566.07 328.18,555.89" fill="#FCA5A5" stroke="#6B7280" stroke-width="1.1" stroke-linejoin="round"/>
+<polygon points="348.4,405.6 247.6,405.6 247.6,458.4 348.4,458.4" fill="#93C5FD" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="343.6,410.4 252.4,410.4 252.4,453.6 343.6,453.6" fill="#F9FAFB" stroke="#1D4ED8" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="340,412.8 270.4,412.8 270.4,451.2 340,451.2" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="270.4,416.4 256,416.4 256,447.6 270.4,447.6" fill="#FCA5A5" stroke="#6B7280" stroke-width="1.1" stroke-linejoin="round"/>
+<polygon points="390.97,355.63 319.69,284.36 282.36,321.69 353.63,392.97" fill="#93C5FD" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="384.18,355.63 319.69,291.14 289.14,321.69 353.63,386.18" fill="#F9FAFB" stroke="#1D4ED8" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="379.94,354.78 330.72,305.57 303.57,332.72 352.78,381.94" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="328.18,308.11 317.99,297.93 295.93,319.99 306.11,330.18" fill="#FCA5A5" stroke="#6B7280" stroke-width="1.1" stroke-linejoin="round"/>
+<polygon points="456.4,350.4 456.4,249.6 403.6,249.6 403.6,350.4" fill="#93C5FD" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="451.6,345.6 451.6,254.4 408.4,254.4 408.4,345.6" fill="#F9FAFB" stroke="#1D4ED8" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="449.2,342 449.2,272.4 410.8,272.4 410.8,342" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="445.6,272.4 445.6,258 414.4,258 414.4,272.4" fill="#FCA5A5" stroke="#6B7280" stroke-width="1.1" stroke-linejoin="round"/>
+<polygon points="506.37,392.97 577.64,321.69 540.31,284.36 469.03,355.63" fill="#93C5FD" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="506.37,386.18 570.86,321.69 540.31,291.14 475.82,355.63" fill="#F9FAFB" stroke="#1D4ED8" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="507.22,381.94 556.43,332.72 529.28,305.57 480.06,354.78" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="553.89,330.18 564.07,319.99 542.01,297.93 531.82,308.11" fill="#FCA5A5" stroke="#6B7280" stroke-width="1.1" stroke-linejoin="round"/>
+<polygon points="511.6,458.4 612.4,458.4 612.4,405.6 511.6,405.6" fill="#93C5FD" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="516.4,453.6 607.6,453.6 607.6,410.4 516.4,410.4" fill="#F9FAFB" stroke="#1D4ED8" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="520,451.2 589.6,451.2 589.6,412.8 520,412.8" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="589.6,447.6 604,447.6 604,416.4 589.6,416.4" fill="#FCA5A5" stroke="#6B7280" stroke-width="1.1" stroke-linejoin="round"/>
+<polygon points="469.03,508.37 540.31,579.64 577.64,542.31 506.37,471.03" fill="#93C5FD" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="475.82,508.37 540.31,572.86 570.86,542.31 506.37,477.82" fill="#F9FAFB" stroke="#1D4ED8" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="480.06,509.22 529.28,558.43 556.43,531.28 507.22,482.06" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="531.82,555.89 542.01,566.07 564.07,544.01 553.89,533.82" fill="#FCA5A5" stroke="#6B7280" stroke-width="1.1" stroke-linejoin="round"/>
+</g>
+<defs><clipPath id="turretClip"><circle cx="430" cy="432" r="192"/></clipPath></defs>
+<circle cx="430" cy="624" r="114" fill="none" stroke="#1D4ED8" stroke-width="1.4" stroke-dasharray="4,3" clip-path="url(#turretClip)"/>
+<polygon points="407.2,517.2 407.2,610.8 452.8,610.8 452.8,517.2" fill="#1D4ED8" stroke="#1D4ED8" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="4,3" fill-opacity="0.12"/>
+<circle cx="430" cy="624" r="7.68" fill="#FDE68A" stroke="#B45309" stroke-width="1.4"/>
+<path d="M425,624 h10 M430,619 v10" stroke="#B45309" stroke-width="1.2"/>
+<polygon points="406,516 406,612 454,612 454,516" fill="none" stroke="#DC2626" stroke-width="2" stroke-linejoin="round" stroke-dasharray="6,4"/>
+<g id="hidden-drive">
+<circle cx="430" cy="432" r="36" fill="none" stroke="#1D4ED8" stroke-width="1.4" stroke-dasharray="4,3"/>
+<circle cx="430" cy="324" r="72" fill="none" stroke="#1D4ED8" stroke-width="1.4" stroke-dasharray="4,3"/>
+<rect x="415.6" y="309.36" width="54.72" height="29.28" fill="#FDE68A" fill-opacity="0.3" stroke="#B45309" stroke-width="1.4" stroke-dasharray="4,3"/>
+<circle cx="430" cy="324" r="5.76" fill="none" stroke="#B45309" stroke-width="1.2"/>
+<circle cx="430" cy="396" r="2.6" fill="#1E3A8A"/>
+</g>
+<circle cx="430" cy="432" r="19.2" fill="#93C5FD" stroke="#1D4ED8" stroke-width="1.5"/>
+<circle cx="430" cy="432" r="9.6" fill="#E5E7EB" stroke="#374151" stroke-width="1.3"/>
+<line x1="414.73" y1="447.27" x2="374" y2="488" stroke="#1E3A8A" stroke-width="0.9" stroke-dasharray="8,3,2,3"/>
+<line x1="408.4" y1="432" x2="350.8" y2="432" stroke="#1E3A8A" stroke-width="0.9" stroke-dasharray="8,3,2,3"/>
+<path d="M389.27,472.73 A57.6,57.6 0 0 1 372.4,432" fill="none" stroke="#1E3A8A" stroke-width="1.2" marker-start="url(#startGray)" marker-end="url(#endGray)"/>
+<path d="M479.64,390.35 A64.8,64.8 0 0 1 479.64,473.65" fill="none" stroke="#1D4ED8" stroke-width="2.4" marker-start="url(#startBlue)" marker-end="url(#endBlue)"/>
+<path d="M458.17,571.02 A60,60 0 0 1 473.16,665.68" fill="none" stroke="#1D4ED8" stroke-width="2.4" marker-end="url(#endBlue)"/>
+<text x="504.4" y="629" font-size="14" fill="#1E3A8A" font-weight="bold">≈160°</text>
+<circle cx="430" cy="576" r="10" fill="#FFFFFF" stroke="#374151" stroke-width="1"/>
+<text x="430" y="581" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">0</text>
+<circle cx="328.18" cy="533.82" r="10" fill="#FFFFFF" stroke="#374151" stroke-width="1"/>
+<text x="328.18" y="538.82" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">1</text>
+<circle cx="286" cy="432" r="10" fill="#FFFFFF" stroke="#374151" stroke-width="1"/>
+<text x="286" y="437" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">2</text>
+<circle cx="328.18" cy="330.18" r="10" fill="#FFFFFF" stroke="#374151" stroke-width="1"/>
+<text x="328.18" y="335.18" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">3</text>
+<circle cx="430" cy="288" r="10" fill="#FFFFFF" stroke="#374151" stroke-width="1"/>
+<text x="430" y="293" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">4</text>
+<circle cx="531.82" cy="330.18" r="10" fill="#FFFFFF" stroke="#374151" stroke-width="1"/>
+<text x="531.82" y="335.18" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">5</text>
+<circle cx="574" cy="432" r="10" fill="#FFFFFF" stroke="#374151" stroke-width="1"/>
+<text x="574" y="437" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">6</text>
+<circle cx="531.82" cy="533.82" r="10" fill="#FFFFFF" stroke="#374151" stroke-width="1"/>
+<text x="531.82" y="538.82" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">7</text>
+<g id="top-labels">
+<text x="430" y="789.6" font-size="13" fill="#374151" text-anchor="middle" font-weight="bold">FRONT · exit chute and tray beyond</text>
+<polyline points="242,186 272,186 379.12,273.12" fill="none" stroke="#6B7280" stroke-width="0.9"/>
+<circle cx="379.12" cy="273.12" r="2.3" fill="#6B7280"/>
+<text x="236" y="182" font-size="14" fill="#1F2937" text-anchor="end">48T gear on S1</text>
+<text x="236" y="199" font-size="12" fill="#4B5563" text-anchor="end">PD 60 · 2:1 step-up</text>
+<polyline points="598,186 570,186 470.32,316.8" fill="none" stroke="#6B7280" stroke-width="0.9"/>
+<circle cx="470.32" cy="316.8" r="2.3" fill="#6B7280"/>
+<text x="604" y="182" font-size="14" fill="#1F2937">S1 · MG90S servo</text>
+<text x="604" y="198" font-size="12" fill="#4B5563">rear, below the floor plate</text>
+<polyline points="174,341.99 212.7,341.99 396.74,418.22" fill="none" stroke="#6B7280" stroke-width="0.9"/>
+<circle cx="396.74" cy="418.22" r="2.3" fill="#6B7280"/>
+<text x="168" y="339.99" font-size="14" fill="#1F2937" text-anchor="end">24T hub gear</text>
+<text x="168" y="356.99" font-size="12" fill="#4B5563" text-anchor="end">below the plate</text>
+<polyline points="174,514.66 230.44,514.66 376.78,454.04" fill="none" stroke="#6B7280" stroke-width="0.9"/>
+<circle cx="376.78" cy="454.04" r="2.3" fill="#6B7280"/>
+<text x="168" y="518.66" font-size="14" fill="#1F2937" text-anchor="end">45° per column</text>
+<polyline points="174,600 406,600" fill="none" stroke="#6B7280" stroke-width="0.9"/>
+<circle cx="406" cy="600" r="2.3" fill="#6B7280"/>
+<text x="168" y="578" font-size="14" fill="#1F2937" text-anchor="end">column 0 position</text>
+<text x="168" y="594" font-size="12" fill="#4B5563" text-anchor="end">restock hatch above (red)</text>
+<text x="168" y="610" font-size="12" fill="#4B5563" text-anchor="end">pocket at LOAD below (blue)</text>
+<text x="168" y="626" font-size="12" fill="#4B5563" text-anchor="end">both 1 column wide</text>
+<polyline points="688,286 585.76,286 565.76,296.24" fill="none" stroke="#6B7280" stroke-width="0.9"/>
+<circle cx="565.76" cy="296.24" r="2.3" fill="#6B7280"/>
+<text x="694" y="290" font-size="14" fill="#1F2937">turret Ø≈160</text>
+<text x="694" y="307" font-size="12" fill="#4B5563">rotates, weighed</text>
+<polyline points="688,516.5 633.99,516.5 489.87,456.8" fill="none" stroke="#6B7280" stroke-width="0.9"/>
+<circle cx="489.87" cy="456.8" r="2.3" fill="#6B7280"/>
+<text x="694" y="520.5" font-size="14" fill="#1F2937">turret rotation</text>
+<text x="694" y="537.5" font-size="12" fill="#4B5563">either direction</text>
+<polyline points="688,434 612.4,434" fill="none" stroke="#6B7280" stroke-width="0.9"/>
+<circle cx="612.4" cy="434" r="2.3" fill="#6B7280"/>
+<text x="694" y="438" font-size="14" fill="#1F2937">column 18 × 38 inside</text>
+<text x="694" y="455" font-size="12" fill="#4B5563">centre R55 · 5 layers</text>
+<polyline points="688,633.6 543.52,633.6" fill="none" stroke="#6B7280" stroke-width="0.9"/>
+<circle cx="543.52" cy="633.6" r="2.3" fill="#6B7280"/>
+<text x="694" y="631.6" font-size="14" fill="#1F2937">dosing disc Ø95</text>
+<text x="694" y="647.6" font-size="12" fill="#4B5563">top flush with the floor</text>
+<text x="694" y="663.6" font-size="12" fill="#4B5563">S2 MG90S below its axis (R80)</text>
+<polyline points="688,700 522.57,700 490.57,722.71" fill="none" stroke="#6B7280" stroke-width="0.9"/>
+<circle cx="490.57" cy="722.71" r="2.3" fill="#6B7280"/>
+<text x="694" y="704" font-size="14" fill="#1F2937">pocket at REST ≈R103</text>
+<text x="694" y="720" font-size="12" fill="#4B5563">outside the turret, over the</text>
+<text x="694" y="736" font-size="12" fill="#4B5563">exit hole → chute → tray</text>
+<polyline points="688,230.4 636.4,230.4" fill="none" stroke="#6B7280" stroke-width="0.9"/>
+<circle cx="636.4" cy="230.4" r="2.3" fill="#6B7280"/>
+<text x="694" y="234.4" font-size="14" fill="#1F2937">fixed floor plate</text>
+<text x="694" y="251.4" font-size="12" fill="#4B5563">slick top (µ ≤ 0.2)</text>
+</g>
+<text x="860" y="118" font-size="13" fill="#374151" font-weight="bold">COLUMN MAPPING — start values, calibrate each column</text>
+<g id="table">
+<rect x="860" y="140" width="700" height="40" fill="#F3F4F6"/>
+<text x="920" y="165" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">Column k</text>
+<text x="1070" y="165" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">Turret angle</text>
+<text x="1255" y="165" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">Servo angle</text>
+<text x="1455" y="165" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">Pulse (start value)</text>
+<text x="920" y="200" font-size="14" fill="#1F2937" text-anchor="middle" font-weight="bold">0</text>
+<text x="1070" y="200" font-size="14" fill="#1F2937" text-anchor="middle">0°</text>
+<text x="1255" y="200" font-size="14" fill="#1F2937" text-anchor="middle">11.25°</text>
+<text x="1455" y="200" font-size="14" fill="#1F2937" text-anchor="middle">625 µs</text>
+<rect x="860" y="209" width="700" height="29" fill="#F9FAFB"/>
+<text x="920" y="229" font-size="14" fill="#1F2937" text-anchor="middle" font-weight="bold">1</text>
+<text x="1070" y="229" font-size="14" fill="#1F2937" text-anchor="middle">45°</text>
+<text x="1255" y="229" font-size="14" fill="#1F2937" text-anchor="middle">33.75°</text>
+<text x="1455" y="229" font-size="14" fill="#1F2937" text-anchor="middle">875 µs</text>
+<text x="920" y="258" font-size="14" fill="#1F2937" text-anchor="middle" font-weight="bold">2</text>
+<text x="1070" y="258" font-size="14" fill="#1F2937" text-anchor="middle">90°</text>
+<text x="1255" y="258" font-size="14" fill="#1F2937" text-anchor="middle">56.25°</text>
+<text x="1455" y="258" font-size="14" fill="#1F2937" text-anchor="middle">1125 µs</text>
+<rect x="860" y="267" width="700" height="29" fill="#F9FAFB"/>
+<text x="920" y="287" font-size="14" fill="#1F2937" text-anchor="middle" font-weight="bold">3</text>
+<text x="1070" y="287" font-size="14" fill="#1F2937" text-anchor="middle">135°</text>
+<text x="1255" y="287" font-size="14" fill="#1F2937" text-anchor="middle">78.75°</text>
+<text x="1455" y="287" font-size="14" fill="#1F2937" text-anchor="middle">1375 µs</text>
+<text x="920" y="316" font-size="14" fill="#1F2937" text-anchor="middle" font-weight="bold">4</text>
+<text x="1070" y="316" font-size="14" fill="#1F2937" text-anchor="middle">180°</text>
+<text x="1255" y="316" font-size="14" fill="#1F2937" text-anchor="middle">101.25°</text>
+<text x="1455" y="316" font-size="14" fill="#1F2937" text-anchor="middle">1625 µs</text>
+<rect x="860" y="325" width="700" height="29" fill="#F9FAFB"/>
+<text x="920" y="345" font-size="14" fill="#1F2937" text-anchor="middle" font-weight="bold">5</text>
+<text x="1070" y="345" font-size="14" fill="#1F2937" text-anchor="middle">225°</text>
+<text x="1255" y="345" font-size="14" fill="#1F2937" text-anchor="middle">123.75°</text>
+<text x="1455" y="345" font-size="14" fill="#1F2937" text-anchor="middle">1875 µs</text>
+<text x="920" y="374" font-size="14" fill="#1F2937" text-anchor="middle" font-weight="bold">6</text>
+<text x="1070" y="374" font-size="14" fill="#1F2937" text-anchor="middle">270°</text>
+<text x="1255" y="374" font-size="14" fill="#1F2937" text-anchor="middle">146.25°</text>
+<text x="1455" y="374" font-size="14" fill="#1F2937" text-anchor="middle">2125 µs</text>
+<rect x="860" y="383" width="700" height="29" fill="#F9FAFB"/>
+<text x="920" y="403" font-size="14" fill="#1F2937" text-anchor="middle" font-weight="bold">7</text>
+<text x="1070" y="403" font-size="14" fill="#1F2937" text-anchor="middle">315°</text>
+<text x="1255" y="403" font-size="14" fill="#1F2937" text-anchor="middle">168.75°</text>
+<text x="1455" y="403" font-size="14" fill="#1F2937" text-anchor="middle">2375 µs</text>
+<rect x="860" y="412" width="700" height="31" fill="#EFF6FF"/>
+<text x="920" y="433" font-size="13" fill="#1E3A8A" text-anchor="middle">k</text>
+<text x="1070" y="433" font-size="13" fill="#1E3A8A" text-anchor="middle">45 · k</text>
+<text x="1255" y="433" font-size="13" fill="#1E3A8A" text-anchor="middle">11.25 + 22.5 · k</text>
+<text x="1455" y="433" font-size="13" fill="#1E3A8A" text-anchor="middle">625 + 250 · k</text>
+<line x1="860" y1="140" x2="1560" y2="140" stroke="#374151" stroke-width="1.2"/>
+<line x1="860" y1="180" x2="1560" y2="180" stroke="#374151" stroke-width="1"/>
+<line x1="860" y1="412" x2="1560" y2="412" stroke="#9CA3AF" stroke-width="1"/>
+<line x1="860" y1="443" x2="1560" y2="443" stroke="#374151" stroke-width="1.2"/>
+</g>
+<text x="860" y="489" font-size="13" fill="#374151" font-weight="bold">SERVO ANGLE VS COLUMN</text>
+<text x="1046" y="489" font-size="12" fill="#4B5563">157.5° of the servo's 0–180° range is used</text>
+<g id="chart">
+<rect x="930" y="711.88" width="470" height="13.12" fill="url(#hatch)"/>
+<rect x="930" y="515" width="470" height="13.12" fill="url(#hatch)"/>
+<line x1="930" y1="725" x2="1400" y2="725" stroke="#E5E7EB" stroke-width="1"/>
+<text x="922" y="729" font-size="12" fill="#4B5563" text-anchor="end">0°</text>
+<line x1="930" y1="672.5" x2="1400" y2="672.5" stroke="#E5E7EB" stroke-width="1"/>
+<text x="922" y="676.5" font-size="12" fill="#4B5563" text-anchor="end">45°</text>
+<line x1="930" y1="620" x2="1400" y2="620" stroke="#E5E7EB" stroke-width="1"/>
+<text x="922" y="624" font-size="12" fill="#4B5563" text-anchor="end">90°</text>
+<line x1="930" y1="567.5" x2="1400" y2="567.5" stroke="#E5E7EB" stroke-width="1"/>
+<text x="922" y="571.5" font-size="12" fill="#4B5563" text-anchor="end">135°</text>
+<line x1="930" y1="515" x2="1400" y2="515" stroke="#E5E7EB" stroke-width="1"/>
+<text x="922" y="519" font-size="12" fill="#4B5563" text-anchor="end">180°</text>
+<line x1="930" y1="515" x2="930" y2="725" stroke="#9CA3AF" stroke-width="1"/>
+<line x1="930" y1="725" x2="1400" y2="725" stroke="#9CA3AF" stroke-width="1"/>
+<text x="960" y="743" font-size="12" fill="#4B5563" text-anchor="middle">0</text>
+<text x="1018.57" y="743" font-size="12" fill="#4B5563" text-anchor="middle">1</text>
+<text x="1077.14" y="743" font-size="12" fill="#4B5563" text-anchor="middle">2</text>
+<text x="1135.71" y="743" font-size="12" fill="#4B5563" text-anchor="middle">3</text>
+<text x="1194.29" y="743" font-size="12" fill="#4B5563" text-anchor="middle">4</text>
+<text x="1252.86" y="743" font-size="12" fill="#4B5563" text-anchor="middle">5</text>
+<text x="1311.43" y="743" font-size="12" fill="#4B5563" text-anchor="middle">6</text>
+<text x="1370" y="743" font-size="12" fill="#4B5563" text-anchor="middle">7</text>
+<text x="1165" y="761" font-size="12" fill="#4B5563" text-anchor="middle">column k</text>
+<text x="884" y="620" font-size="12" fill="#4B5563" text-anchor="middle" transform="rotate(-90 884 620)">servo angle</text>
+<polyline points="960,711.88 1018.57,685.62 1077.14,659.38 1135.71,633.12 1194.29,606.88 1252.86,580.62 1311.43,554.38 1370,528.12" fill="none" stroke="#1D4ED8" stroke-width="2"/>
+<circle cx="960" cy="711.88" r="4.5" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="2"/>
+<circle cx="1018.57" cy="685.62" r="4.5" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="2"/>
+<circle cx="1077.14" cy="659.38" r="4.5" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="2"/>
+<circle cx="1135.71" cy="633.12" r="4.5" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="2"/>
+<circle cx="1194.29" cy="606.88" r="4.5" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="2"/>
+<circle cx="1252.86" cy="580.62" r="4.5" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="2"/>
+<circle cx="1311.43" cy="554.38" r="4.5" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="2"/>
+<circle cx="1370" cy="528.12" r="4.5" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="2"/>
+<text x="966" y="699.88" font-size="12" fill="#1F2937" text-anchor="end">11.25°</text>
+<text x="1380" y="532.12" font-size="12" fill="#1F2937">168.75°</text>
+<path d="M1464,528.12 h8 V711.88 h-8" fill="none" stroke="#374151" stroke-width="1.2"/>
+<text x="1480" y="618" font-size="14" fill="#1F2937" font-weight="bold">157.5°</text>
+<text x="1480" y="635" font-size="12" fill="#4B5563">sweep used</text>
+<text x="1468" y="517" font-size="11" fill="#4B5563">unused</text>
+<text x="1468" y="727" font-size="11" fill="#4B5563">unused</text>
+</g>
+<rect x="40" y="842" width="368" height="86" rx="6" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+<rect x="40" y="842" width="5" height="86" rx="2" fill="#1D4ED8"/>
+<text x="58" y="868" font-size="13.5" fill="#1F2937" font-weight="bold">S1 always approaches from the lower-pulse side</text>
+<text x="58" y="889" font-size="12.5" fill="#4B5563">overshoot −50 µs, then up → gear backlash</text>
+<text x="58" y="908" font-size="12.5" fill="#4B5563">taken up the same way every time</text>
+<rect x="424" y="842" width="368" height="86" rx="6" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+<rect x="424" y="842" width="5" height="86" rx="2" fill="#B45309"/>
+<text x="442" y="868" font-size="13.5" fill="#1F2937" font-weight="bold">S1 stays powered until the disc is back at REST</text>
+<text x="442" y="889" font-size="12.5" fill="#4B5563">then PWM off; idle hold = stack friction</text>
+<text x="442" y="908" font-size="12.5" fill="#4B5563">+ servo gearbox (no detent)</text>
+<rect x="808" y="842" width="368" height="86" rx="6" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+<rect x="808" y="842" width="5" height="86" rx="2" fill="#15803D"/>
+<text x="826" y="868" font-size="13.5" fill="#1F2937" font-weight="bold">Torque at turret = ½ servo</text>
+<text x="826" y="889" font-size="12.5" fill="#4B5563">drag 35.6 mN·m at the turret (µ ≤ 0.2)</text>
+<text x="826" y="908" font-size="12.5" fill="#4B5563">→ 79 mN·m at the horn, SF 2.3</text>
+<rect x="1192" y="842" width="368" height="86" rx="6" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+<rect x="1192" y="842" width="5" height="86" rx="2" fill="#374151"/>
+<text x="1210" y="868" font-size="13.5" fill="#1F2937" font-weight="bold">No wrap-around</text>
+<text x="1210" y="889" font-size="12.5" fill="#4B5563">column 7 → column 0 sweeps back</text>
+<text x="1210" y="908" font-size="12.5" fill="#4B5563">ramp ≤ 25 µs / 20 ms, full sweep ≈ 1.4 s</text>
+<text x="1560" y="980" font-size="11" fill="#9CA3AF" text-anchor="end">Smart Med Station · Hardware design v2.1 · 2026-10-07</text>
+</svg>
